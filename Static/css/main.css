@@ -1,0 +1,288 @@
+/* Coolors Exported Palette - coolors.co/2c5134-4e535b-a4c1a4-d8dad3-eeffe0 */
+/* HSL 
+$af-dark-green: hsla(133%, 30%, 25%, 1);
+$af-dark-grey: hsla(217%, 8%, 33%, 1);
+$af-light-green: hsla(120%, 19%, 70%, 1);
+$af-light-grey: hsla(77%, 9%, 84%, 1);
+$pale: hsla(93%, 100%, 94%, 1);
+*/
+/* RGB */
+body {
+  font: Lato, sans-serif; }
+
+.container {
+  padding-left: 1rem;
+  padding-right: 1rem; }
+
+#logo {
+  background-image: url("../img/logo/AF-logo-v1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-left: 1rem;
+  margin-top: 10px;
+  height: 100px;
+  background-size: contain;
+  background-position: left; }
+
+#content {
+  padding-bottom: 10px; }
+
+.navbar-nav li a, .nav li a {
+  padding: 0 10px;
+  color: #fff; }
+
+#banner .navbar {
+  background-color: #2c5134;
+  color: #ffffff;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 5px;
+  margin-bottom: 0px;
+  z-index: 9999;
+  border: 0;
+  font-size: 12px !important;
+  line-height: 1.42857143 !important;
+  letter-spacing: 4px;
+  border-radius: 0;
+  font-family: Montserrat, sans-serif;
+  min-height: 20px !important;
+  height: 35px !important;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-bottom: 0px !important; }
+  #banner .navbar li {
+    background-color: #2c5134; }
+  #banner .navbar .navbar-fixed-top {
+    margin-bottom: 0px !important; }
+  #banner .navbar .navbar-nav {
+    height: 35px !important; }
+    #banner .navbar .navbar-nav li a {
+      padding-top: 2px !important;
+      padding-bottom: 2px !important;
+      color: #fff; }
+  #banner .navbar .navbar-nav li a:hover, #banner .navbar .navbar-nav li.active a {
+    color: #2c5134 !important;
+    background-color: #fff !important; }
+  #banner .navbar .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+    margin-top: 3px !important;
+    margin-bottom: 3px !important; }
+    #banner .navbar .navbar-toggle .icon-bar {
+      background-color: #ffffff; }
+  #banner .navbar ul .dropdown-menu li a {
+    color: #2c5134; }
+    #banner .navbar ul .dropdown-menu li a a:hover {
+      color: #4e535b; }
+
+.icon-bar {
+  background-color: #fff; }
+
+.carousel {
+  padding-top: 2px;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  text-align: center;
+  position: relative;
+  padding: 0px 0px 0px 0px;
+  min-height: 50rem;
+  margin: 0 0 0 0;
+  color: #4e535b;
+  border-radius: 0px;
+  min-height: 50rem; }
+  .carousel .pullout {
+    height: 8.33333rem;
+    background-color: rgba(164, 193, 164, 0.75);
+    margin: -16.66667rem 0px 8.33333rem 0px;
+    position: relative;
+    width: 80%;
+    text-align: left;
+    padding-left: 5%; }
+    .carousel .pullout h1 {
+      font-size: 36px; }
+  .carousel img {
+    min-height: 50rem; }
+  .carousel .carousel-control {
+    width: 8%; }
+  .carousel .lodges-cover {
+    background-image: url("../img/dscf5207.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; }
+  .carousel .roughlands-cover {
+    background-image: url("../img/roughlands/roughlands_external.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; }
+  .carousel .spring-cover {
+    background-image: url("../img/old_brochure/spring2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; }
+  .carousel .street-cover {
+    background-image: url("../img/65street.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; }
+  .carousel .of-farm-cover {
+    background-image: url("..img/drone/drone_lodge_fields.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; }
+  .carousel .fishing-cover {
+    background-image: url("../img/fishing.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; }
+  .carousel .shooting-cover {
+    background-image: url("..img/shooting_main.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; }
+  .carousel .fields-cover {
+    background-image: url("..img/drone/drone_lodge_fields.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; }
+  .carousel .cover1 {
+    background-image: url("..img/drone/lodges_aerial1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; }
+
+#carousel-home .img1 {
+  background-image: url("../img/home.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 50rem; }
+#carousel-home .img2 {
+  background-image: url("..img/drone/lodges_aerial1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 50rem; }
+#carousel-home .img3 {
+  background-image: url("../img/fishing.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 50rem; }
+
+.light-green-fill {
+  background-color: rgba(164, 193, 164, 0.75);
+  min-height: 350px; }
+
+#properties .card {
+  border-width: 0;
+  width: 18rem; }
+  #properties .card .card-img-overlay {
+    height: 100%;
+    width: 100%;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    background-color: rgba(164, 193, 164, 0.75);
+    color: #fff; }
+    #properties .card .card-img-overlay a {
+      color: #fff; }
+    #properties .card .card-img-overlay a:focus, #properties .card .card-img-overlay a:hover {
+      text-decoration: none; }
+  #properties .card div:hover {
+    background-color: none;
+    visibility: hidden; }
+
+.circle-images {
+  text-align: center; }
+  .circle-images .round {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    height: 300px;
+    width: 300px;
+    border-radius: 300px;
+    -webkit-border-radius: 300px;
+    -moz-border-radius: 300px;
+    -ms-border-radius: 300px;
+    color: #fff; }
+    .circle-images .round div {
+      height: 300px;
+      width: 300px;
+      border-radius: 300px;
+      -webkit-border-radius: 300px;
+      -moz-border-radius: 300px;
+      -ms-border-radius: 300px;
+      background-color: rgba(164, 193, 164, 0.75); }
+      .circle-images .round div h1 {
+        margin-top: auto;
+        margin-bottom: auto;
+        padding-top: 40%;
+        color: #ffffff; }
+    .circle-images .round a:focus, .circle-images .round a:hover {
+      text-decoration: none; }
+    .circle-images .round div:hover {
+      background-color: none;
+      visibility: hidden; }
+  .circle-images #lodges {
+    background-image: url("../img/dscf5207.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; }
+  .circle-images #roughlands {
+    background-image: url("../img/roughlands/roughlands_external.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; }
+  .circle-images #cottages {
+    background-image: url("../img/old_brochure/spring2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; }
+  .circle-images #street65 {
+    background-image: url("../img/65street.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; }
+
+.key-points {
+  text-align: middle; }
+  .key-points span {
+    color: #2c5134; }
+
+#footer {
+  background-color: #2c5134;
+  color: #ffffff;
+  min-height: 150px;
+  font-size: 10px;
+  line-height: 11px;
+  padding: 7.5px; }
+  #footer .row {
+    max-height: 135px;
+    min-height: 10px;
+    margin: 0px; }
+  #footer .img-responsive {
+    max-height: 135px; }
+
+a {
+  color: #2c5134; }
+  a a:focus, a a:hover {
+    text-decoration: none; }
+
+.property-card {
+  height: 400px;
+  border-width: 3px;
+  border-color: #4e535b; }
+
+.card {
+  border-radius: 0.5rem; }
+
+/*# sourceMappingURL=main.css.map */

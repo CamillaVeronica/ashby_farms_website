@@ -1,0 +1,58 @@
+{% extends "property_template.html" %}
+
+{% block property_img1 %}
+"{{url_for('static', filename="img/Lodges/living_area.jpg") }}"
+{% endblock %}
+
+{% block property_img2 %}
+"{{url_for('static', filename="img/Lodges/dining_area.jpg") }}"
+{% endblock %}
+
+{% block header_img %} roughlands-cover
+{% endblock %}
+
+{% block title %} 
+Roughlands - Ashby Farms
+{% endblock %}
+
+{% block property_name %}
+Roughlands
+{% endblock %}
+
+{% set gallery = {'img/roughlands/roughlands_external.jpg':'View to Roughlands from the gateway', 'img/roughlands/kitchen.jpg':'Fully equipped kitchen', 'img/roughlands/living_room.jpg': 'Cozy living room', 'img/roughlands/bedroom1.jpg':'First bedroom with double and single beds', 'img/roughlands/bedroom2.jpg':'Second bedroom with twin beds', 'img/roughlands/roughlands_external2.jpg':'Large garden and views across the fields'} %}
+
+{% block property_description %} 
+A country bungalow with its own large garden, set well back from the quiet country road between Appledore and Woodchurch with Roughlands Wood and our fishing lakes in the woods on the North side and open fields on the others.<br>
+Roughlands has one double bedroom with optional additional single bed and one twin room, a fully-equipped kitchen, bathroom and a spacious living room.
+
+{% endblock %}
+
+{% block property_sleeps %} 
+5
+{% endblock %}
+
+{% block property_beds %}
+2 – one double with single and one twin
+{% endblock %}
+
+{% block amenities %}
+•	Garden
+•	Fully equiped kitchen
+•	Washing machine
+•	Television
+•	Hairdryer?
+•	Bath
+{% endblock %}
+
+{% block property_location %}
+The nearest village is Woodchurch which is about a mile away. It is a perfect base for exploring the beautiful Kent and East Sussex countryside, exploring the Cinque Port town of Rye or a jaunt to the coast. Find out more about things to do in the area <a url='/activities'>here</a>.
+{% endblock %}
+
+{% block property_transport %} 
+The property offers plenty of space for parking.
+<br>
+The nearest train station is Appledore which has trains towards Ashford and Brighton. Ashford International offers services to London in 40 minutes.<br>
+Bus services are available from Woodchurch to XX and XX. <br>
+There are a number of local taxi companies, details of these can be found here.
+
+{% endblock %}

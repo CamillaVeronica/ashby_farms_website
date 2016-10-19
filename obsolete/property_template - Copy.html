@@ -1,0 +1,145 @@
+{% extends "layout.html" %}
+
+{% block head %}
+{{ super() }}
+<!-- lightbox css -->
+<link type="text/css" rel="stylesheet" href="{{url_for('static', filename='lightgallery/css/lightgallery.css')}}" />
+
+<!-- justified gallery css -->
+<link type="text/css" rel='stylesheet' href="{{url_for('static', filename='justified-gallery/css/justifiedGallery.min.css')}}">
+
+{% endblock %}
+
+{% block content %}
+
+<div id="about" class="container">
+	<div class='page-header'><h2>{% block property_name %} Name {% endblock %}</h2></div>
+	<div>
+		<h3>{% block property_description %} Blurb blurb {% endblock %} 
+		</h3>
+	</div>
+
+	<div class='row'>
+	<div class='col-md-6'>
+	<p><h4>Sleeps</h4> {% block property_sleeps %} {% endblock %}</p>
+	<h4>Beds</h4><p>{% block property_beds %} {% endblock %}</p>
+	<h4>Amenities</h4>
+	<ul>{% block amenities %} {% endblock %}</ul>
+	<h4>Location</h4>
+	<p>{% block property_location %} {% endblock %}</p>
+	<h4>Transport</h4>
+	<p>{% block property_transport %} {% endblock %}</p>
+	</div>
+
+
+	<!-- lightgallery -->
+	<!-- Want so for each image in list generates next image (block?) -->
+	<div class='col-md-6'>
+		<div id="gallery">
+	  	<a href={% block property_img1 %}"{{url_for('static', filename="img/Lodges/dining_area.jpg") }}" {% endblock %}>
+	      <img src={% block property_img1_thumb %} "{{url_for('static', filename="img/Lodges/dining_area.jpg") }}" {% endblock %} />
+	 	 </a>
+	  	<a href={% block property_img2 %}""{% endblock %}>
+	      <img src={% block property_img2_thumb %}""{% endblock %} />
+	 	 </a>
+	 	 <a href={% block property_img3 %}""{% endblock %}>
+	      <img src={% block property_img3_thumb %}""{% endblock %} />
+	 	 </a>
+	 	 <a href={% block property_img4 %}""{% endblock %}>
+	      <img src={% block property_img4_thumb %}""{% endblock %} />
+	 	 </a>
+	 	 <a href={% block property_img5 %}""{% endblock %}>
+	      <img src={% block property_img5_thumb %}""{% endblock %} />
+	 	 </a>
+	 	 <a href={% block property_img6 %}""{% endblock %}>
+	      <img src={% block property_img6_thumb %}""{% endblock %} />
+	 	 </a>
+		</div>
+	</div>
+	</div>
+
+
+
+		
+<div class="container-fluid">
+	<div id='properties' class='row text-center circle-img'>
+		<div class="page-header"><h2>Other Properties</h2></div>
+		<div class="col-md-4">
+			
+			<div id="lodges" class="round">
+			<a href="">
+			<div>
+				<h1 >Fisherman's Lodges</h1>
+			</div>
+			</a>
+			</div>
+		</div>
+		<div  class="col-md-4">
+			
+				<div id='roughlands' class='round'> 
+				<a href="#">
+					<div>
+						<h1>Roughlands</h1>
+					</div>
+				</a>
+				</div>
+			
+		</div>
+		<div class="col-md-4">
+			
+			<div id='cottages' class="round">
+			<a href="#">
+			<div>
+				<h1>Spring Cottages</h1>
+			</div>
+			</a>
+			</div>
+			
+		</div>
+		<!--<div  class="col-md-3">
+		 <div id='street65' class="round"
+			<div>
+				<h1>65 the Street</h1>
+			</div>
+			</div>> -->
+		</div>
+	</div>
+</div>
+
+
+{% endblock %}
+
+{% block scripts %}
+{{ super() }}
+
+<!-- Lightgallery -->
+
+<script type="text/javascript" src="{{url_for('static', filename='lightgallery/js/lightgallery.min.js')}}"></script>
+
+<!-- justified gallery -->
+
+<script type="text/javascript" src="{{url_for('static', filename='justified-gallery/js/jquery.justifiedGallery.min.js')}}"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js"></script>
+
+<!-- lightgallery plugins -->
+<script src="{{url_for('static', filename='lightgallery/js/lg-thumbnail.min.js')}}"></script>
+<script src="{{url_for('static', filename='lightgallery/js/lg-fullscreen.min.js')}}"></script>
+
+ <!-- lightgallery script -->
+<script type="text/javascript">
+$(document).ready(function() {
+    $("#gallery").lightGallery(); 
+});
+</script>
+
+<!-- justified gallery script -->
+<script type="text/javascript">
+$("#gallery").justifiedGallery(
+	rowHeight : 70,
+    lastRow : 'nojustify',
+    margins : 3
+);
+</script>
+
+{% endblock %}

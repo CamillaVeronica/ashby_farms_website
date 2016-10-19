@@ -1,0 +1,17 @@
+{
+  "name": "ashby_farms_website",
+  "description": "Website for Ashby Farms Cottages",
+  "main": "app.py",
+  "authors": [
+    "Camilla Hayselden-Ashby"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

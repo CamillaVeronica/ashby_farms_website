@@ -1,0 +1,83 @@
+{% extends "layout.html" %}
+{% block header %}
+{% endblock %}
+{% block content %}
+
+<div class="container">
+<div class='row'>
+	<div class="col-md-12">
+		<h3>We have a selection of properties available for rent allowing you to get away from it all in the Kent countryside. Whether you want a rural retreat or a taste of village life we have options to suit for a weekend break through to longer stays.</h3>
+	</div>
+</div>
+<div class="card-deck-wrapper">
+	<div class="row text-center">
+	<div class="col-xl-12">
+	  <div class="card-deck">
+	    <div class="card">
+	      <img class="card-img-top img-fluid" src={{url_for('static', filename='img/lodges/lodges_main.jpg')}} alt="Fisherman’s Lodges">
+	      <div class="card-block">
+	        <h4 class="card-title">Fisherman’s Lodges</h4>
+	        <h6 class="card-subtitle text-muted">Support card subtitle</h6>
+	        <p class="card-text">Scandinavian-inspired lodges nestled alongside two fishing lakes surrounded by woodland close to the village of Woodchurch offer peace to unwind. Each property sleeps up to 6 people.</p>
+	        <a href="#" class="card-link">Card link</a>
+	      </div>
+	    </div>
+	    <div class="card">
+	      <img class="card-img-top img-fluid" src={{url_for('static', filename='img/roughlands/roughlands_external.jpg')}} alt="Card image cap">
+	      <div class="card-block">
+	        <h4 class="card-title">Roughlands</h4>
+	        <p class="card-text">Experience more privacy with this bungalow which backs onto our fields. Sleeps up to X people.</p>
+	        <a href="#" class="card-link">Card link</a>
+	      </div>
+	    </div>
+	    <div class="card">
+	      <img class="card-img-top img-fluid" src={{url_for('static', filename='img/springcottages/spring_external.jpg')}} alt="Card image cap">
+	      <div class="card-block">
+	        <h4 class="card-title">Spring Cottages</h4>
+	        <p class="card-text">These former farm workers’ cottages in the small village of Kenardington offer lots of space with X bedrooms and a taste of country life as the gardens back on to our pastures.</p>
+	        <a href="#" class="card-link">Card link</a>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+	<div class='col-xl-12'>
+		<div class="card-deck">
+			<div class="card">
+				<img class="card-img-top img-fluid" src={{url_for('static', filename='img/65street/65street.jpg')}} alt="Card image cap"
+				>
+				<div class='card-block'>
+				<h4 class="card-title">65 the Street</h4>
+				<p class='card-text'>Experience the charming village of Appledore, sometimes known as the gateway to Romney Marsh from this semidetached property on the main street. Sleeps up to X people </p>
+				<a href="#" class="card-link">Card link</a>
+				</div>
+			</div>
+			<div class="card">
+				<div class='thumbnail'>
+				<img class='img-fluid' src={{url_for('static', filename='')}}
+				>
+				</div>
+				<div class='card-block'>
+				<h4 class="card-title">Old Farm Flat</h4>
+				<p class='card-text'>Our smallest property is great for a couple or solo traveller and offers and authentic taste of farm life as it is situated on a working farm on Romney Marsh, your neighbour will even be the farm foreman.</p>
+				<a href="#" class="card-link">Card link</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+</div>
+	<div class='row text-center'>
+		<div class='col-xl-12'>
+			<div class='card'>
+				<h1 class='card-title'>Group bookings</h1>
+				<p class='card-text'>Booking a trip for a large group? We can arrange block booking of multiple properties to accommodate large groups of up to 48. Perfect for clubs, reunions, team building weekends, organisations or educational groups.</p>
+			</div>
+			<div class='card'>
+				<h1 class='card-title'>Long lets</h1>
+				<p class='card-text'>As well as self-catering holidays we offer long lets of up to X months. Perfect for when looking  for a new home, temporary relocation or during redecoration.</p>
+			</div>
+		</div>
+	</div>
+</div>
+
+{% endblock %}
