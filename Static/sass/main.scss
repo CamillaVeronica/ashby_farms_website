@@ -1,7 +1,7 @@
 @import 'palette';
 @import 'images';
 
-$cover-height: 60rem;
+$cover-height: 40rem;
 $cover-padding: 0px 0px 0px 0px;
 $cover-margin: 0 0 0 0;
 
@@ -12,11 +12,9 @@ $navbar-height: 35px;
 
 $margin:1rem;
 
-$small-text:10px;
+$small-text:12px;
 
 $logo-space: 100px;
-
-$font-stack: Lato, sans-serif;
 
 
 $default-section-size:350px;
@@ -38,7 +36,9 @@ $default-section-size:350px;
   // }
 
 
-
+.container-fluid{
+	padding: 0 0 0 0;
+}
 
 
 
@@ -73,8 +73,8 @@ $default-section-size:350px;
 }
 
 @mixin circle-icon ($circle-size) {
-	height: $circle-size;
-	width: $circle-size;
+//	height: $circle-size;
+//	width: $circle-size;
 	border-radius: $circle-size;
 	-webkit-border-radius: $circle-size;
 	-moz-border-radius: $circle-size;
@@ -96,6 +96,7 @@ $default-section-size:350px;
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-position: center;
+
 }
 
 @mixin rounded-corner ($radius){
@@ -106,9 +107,7 @@ $default-section-size:350px;
 }
 
 
-body {
-    font: $font-stack;
-  }
+
 
 
 .container{
@@ -119,7 +118,7 @@ body {
  	@include image-bg ($logo);
  	@include side-margin;
  	margin-left: $margin;
- 	margin-top: 10px;
+ 	margin-top: 0px;
  	height: $logo-space;
  	background-size: contain;
  	background-position: left;
@@ -137,65 +136,43 @@ color: #fff; }
 #banner .navbar {
       @include light-on-dark;
       @include rounded-corner(50px);
-      margin-left: 0px;
-      margin-right: 0px;
-      margin-top: 5px;
-      margin-bottom: 0px;
       z-index: 9999;
-      border: 0;
-      font-size: 12px !important;
-      line-height: 1.42857143 !important;
       letter-spacing: 4px;
       border-radius: 0;
-      font-family: Montserrat, sans-serif;
-      min-height: 20px !important;
-      height: $navbar-height !important;
       padding-left: $margin;
       padding-right: $margin;
-      margin-bottom: 0px !important;
-      li{
-      	background-color: $af-dark-green;
-      }
-      .navbar-fixed-top{
-      margin-bottom: 0px !important;
-    }
-    .navbar-nav{
-     	height: $navbar-height !important;
-        li a {
-    	padding-top: 2px !important;
-    	padding-bottom: 2px !important;
-    	color: #fff;
-    	}
+    padding-top: 2px !important;
+    padding-bottom: 2px !important;
+    color: #fff;
+	.dropdown-menu{
+		a{
+			color: $af-dark-green;
+		}
+		a:hover{
+  		color: $af-dark-grey;
+  		}
 	}
     .navbar-nav li a:hover, .navbar-nav li.active a {
       color: $af-dark-green !important;
       background-color: #fff !important;
   	}
-  .navbar-toggle {
-      border-color: transparent;
-      color: #fff !important;
-      margin-top: 3px !important;
-      margin-bottom: 3px !important;
-      .icon-bar{
-      	background-color: #ffffff;
-      }
-  }
-  ul .dropdown-menu li a {
-  	color: $af-dark-green;
-  	a:hover{
-  		color: $af-dark-grey;
-  	}
-  }
-}
+  	.navbar-toggler{
+  		background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  		background-size: cover;
+  	//	border-color: #fff;
+  		padding: 15px;
 
-.icon-bar {
-	background-color: #fff;
+  	}
+  	button:focus{
+  		outline-color: #fff;
+  	}
 }
 
 .carousel{
 	padding-top: 2px;
 	@include cover-image;
 	min-height: $cover-height;
+	margin-top: -1.5rem;
 	.pullout {
 	@include pullout;
 		h1{
@@ -207,6 +184,16 @@ color: #fff; }
 	}
 	.carousel-control{
 		width: 8%;
+	}
+	.carousel-caption{
+		float: left;
+		text-align: left;
+		width: 100%;
+		left:5%;
+		padding-top: 15rem;
+	}
+	div{
+		min-height: $cover-height;
 	}
 	.lodges-cover{
 		@include image-bg($lodges-ext-1);
@@ -232,26 +219,26 @@ color: #fff; }
 	.fields-cover{
 		@include image-bg($af-fields-1);
 	}
-
 	.cover1{
 		@include image-bg($lodges-aerial-1);
 	}
-
-
 }
 
 #carousel-home{
 	.img1{
-		@include image-bg ($lake-view-1);
-		min-height: $cover-height;
-	}
-	.img2{
 		@include image-bg ($lodges-aerial-1);
 		min-height: $cover-height;
 	}
-	.img3{
-		@include image-bg ($fishing-large-1);
+	.img2{
+		@include image-bg ($roughlands-ext-1);
 		min-height: $cover-height;
+	}
+	.img3{
+		@include image-bg ($spring-cott-ext-1);
+		min-height: $cover-height;
+	}
+	img{
+		color: rgba(0,0,0,0);
 	}
 }
 
@@ -260,12 +247,13 @@ color: #fff; }
 	min-height: $default-section-size;
 }
 
-
-
 #properties {
 	.card{
 		border-width: 0;
-		min-width: 20rem;
+		min-width: 17rem;
+			img{
+				@include circle-icon(100%);
+			}
 			.card-img-overlay{
 				@include circle-icon (100%);
 				background-color: $af-light-green-trans;
@@ -276,6 +264,9 @@ color: #fff; }
 					a:focus, a:hover{
 					text-decoration: none;
 					}
+				.card-title{
+					padding-top: 1.5rem;
+				}
 			}
 			div:hover{
 				background-color: none;
@@ -284,7 +275,6 @@ color: #fff; }
 	}
 	
 }
-
 	
 .circle-images{
 	
@@ -350,7 +340,7 @@ color: #fff; }
 		min-height: $small-text;
 		margin: 0px;
 	}
-	.img-responsive{
+	.img-fluid{
 		max-height:$footer-height*0.9;
 	}
 
@@ -359,10 +349,14 @@ color: #fff; }
 
 a {
 	color: $af-dark-green;
-	a:focus, a:hover{
-				text-decoration: none;
-			}
 }
+a:hover{
+		color: $af-light-green;
+}
+a:visited{
+		color: $af-light-green;
+	}
+
 
 .property-card {
 	height: 400px;
@@ -372,4 +366,30 @@ a {
 
 .card {
 	border-radius: 0.5rem;
+}
+
+
+
+.btn{
+	@include light-on-dark;
+}
+
+#activities{
+	.card{
+		min-height:25rem;
+		img{
+			width:100%;
+		}
+		.card-img-overlay{
+			background-color: rgba(255,255,255,0.5);
+			padding: 0 0 0 0;
+			.list-group-item{
+				background-color:  rgba(255,255,255,0.3);
+			}
+		}
+	}
+}
+
+#banner{
+	margin-bottom: 1.5rem;
 }

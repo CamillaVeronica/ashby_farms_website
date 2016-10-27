@@ -3,21 +3,13 @@
 {% block header_img %} street-cover
 {% endblock %}
 
-{% block property_img1 %}
-"{{url_for('static', filename="img/Lodges/living_area.jpg") }}"
-{% endblock %}
 
-{% block property_img2 %}
-"{{url_for('static', filename="img/Lodges/dining_area.jpg") }}"
-{% endblock %}
 
 {% block title %} 
 65 the Street - Ashby Farms
 {% endblock %}
 
-{% block property_name %}
-65 The Street
-{% endblock %}
+{% set title="65 the Street" %}
 
 {% block property_description %} 
 Get a taste of village life with this semi-detached home right in the middle of the picturesque village of Appledore. Small but perfectly formed, its main street lined with period buildings has everything you need; a village shop, tearoom and local pub with hops hanging from the rafters.<br>
@@ -26,33 +18,30 @@ The property has one double bedroom, one twin and a single, a fully-equipped kit
 
 {% endblock %}
 
-{% block property_sleeps %} 
-5
-{% endblock %}
+{% set sleeps=" 
+5"%}
 
-{% block property_beds %}
+{% set beds="
 3 – one double, one twin and a single
-{% endblock %}
+"%}
 
-{% block amenities %}
-•	Garden
+{% set amenities="•	Garden
 •	Fully equipped kitchen
 •	Washing machine
 •	Television
 •	Hairdryer?
-•	Bath
+•	Bath"
+%}
 
-{% endblock %}
+{% set location="The property is situated on the main street in the peaceful village of Appledore with a village shop nearby and traditional pub. The Black Lion." %}
+{% set shop="xxx" %}
+{% set pub="xxx" %}
+{% set coast="xxx" %}
 
-{% block property_location %}
-The property is situated on the main street in the peaceful village of Appledore with a village shop nearby and traditional pub The Black Lion. It is a perfect base for exploring the beautiful Kent and East Sussex countryside, exploring the Cinque Port town of Rye or a jaunt to the coast. Find out more about things to do in the area <a url='/activities'>here</a>.
-{% endblock %}
 
-{% block property_transport %} 
-TThere is off-street parking at the front of the property.
+{% set transport="There is off-street parking at the front of the property.
 <br>
 Appledore has a train station which is a little away from the village centre with trains towards Ashford and Brighton. Ashford International offers services to London in 40 minutes.<br>
-Bus services are available to XXX.  <br>
-There are a number of local taxi companies, details of these can be found here.
+Bus services are available to XXX.  <br>"%}
 
-{% endblock %}
+{% set gallery={'img/65street/65street.jpg':''} %}

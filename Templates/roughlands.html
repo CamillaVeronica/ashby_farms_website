@@ -15,44 +15,35 @@
 Roughlands - Ashby Farms
 {% endblock %}
 
-{% block property_name %}
-Roughlands
-{% endblock %}
+{% set title="Roughlands" %}
 
 {% set gallery = {'img/roughlands/roughlands_external.jpg':'View to Roughlands from the gateway', 'img/roughlands/kitchen.jpg':'Fully equipped kitchen', 'img/roughlands/living_room.jpg': 'Cozy living room', 'img/roughlands/bedroom1.jpg':'First bedroom with double and single beds', 'img/roughlands/bedroom2.jpg':'Second bedroom with twin beds', 'img/roughlands/roughlands_external2.jpg':'Large garden and views across the fields'} %}
 
-{% block property_description %} 
-A country bungalow with its own large garden, set well back from the quiet country road between Appledore and Woodchurch with Roughlands Wood and our fishing lakes in the woods on the North side and open fields on the others.<br>
-Roughlands has one double bedroom with optional additional single bed and one twin room, a fully-equipped kitchen, bathroom and a spacious living room.
+{% set description="A country bungalow with its own large garden, set well back from the quiet country road between Appledore and Woodchurch with Roughlands Wood and our fishing lakes in the woods on the North side and open fields on the others.<br>
+Roughlands has one double bedroom with optional additional single bed and one twin room, a fully-equipped kitchen, bathroom and a spacious living room." %}
 
-{% endblock %}
+{% set sleeps=" 
+5"%}
 
-{% block property_sleeps %} 
-5
-{% endblock %}
+{% set beds="
+2 – one double with single and one twin"%}
 
-{% block property_beds %}
-2 – one double with single and one twin
-{% endblock %}
-
-{% block amenities %}
+{% set amenities="
 •	Garden
 •	Fully equiped kitchen
 •	Washing machine
 •	Television
 •	Hairdryer?
-•	Bath
-{% endblock %}
+•	Bath"
+%}
 
-{% block property_location %}
-The nearest village is Woodchurch which is about a mile away. It is a perfect base for exploring the beautiful Kent and East Sussex countryside, exploring the Cinque Port town of Rye or a jaunt to the coast. Find out more about things to do in the area <a url='/activities'>here</a>.
-{% endblock %}
+{% set location = "The nearest village is Woodchurch which is about a mile away." %}
+{% set shop="xxx" %}
+{% set pub="xxx" %}
+{% set coast="xxx" %}
 
-{% block property_transport %} 
-The property offers plenty of space for parking.
+
+{% set transport="The property offers plenty of space for parking.
 <br>
 The nearest train station is Appledore which has trains towards Ashford and Brighton. Ashford International offers services to London in 40 minutes.<br>
-Bus services are available from Woodchurch to XX and XX. <br>
-There are a number of local taxi companies, details of these can be found here.
-
-{% endblock %}
+Bus services are available from Woodchurch to XX and XX."%}

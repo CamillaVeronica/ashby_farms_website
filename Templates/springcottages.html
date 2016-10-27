@@ -1,23 +1,13 @@
 {% extends "property_template.html" %}
 
-{% block property_img1 %}
-"{{url_for('static', filename="img/Lodges/living_area.jpg") }}"
-{% endblock %}
 
-{% block property_img2 %}
-"{{url_for('static', filename="img/Lodges/dining_area.jpg") }}"
-{% endblock %}
-
-{% block header_img %} shooting-cover
-{% endblock %}
+{% block header_img %}spring-cover{% endblock %}
 
 {% block title %} 
 Spring Cottages - Ashby Farms
 {% endblock %}
 
-{% block property_name %}
-Spring Cottages
-{% endblock %}
+{% set title="Spring Cottages" %}
 
 {% block property_description %} 
 Three terraced Cottages with views to Kenardington Church. The large rear garden backs onto farmland.<br>
@@ -26,33 +16,30 @@ The cottages offer a homely feel which makes them ideal for a longer stay. Perha
 
 {% endblock %}
 
-{% block property_sleeps %} 
+{% set gallery = {'img/springcottages/sc_external_2.jpg':'', 'img/springcottages/sp4_backgarden_1.jpg':'The backgarden offers gorgeous views accross our fields', 'img/springcottages/sp_livingroom1.jpg':'The cozy living room has a wood fire', 'img/springcottages/sp_livingroom_2.jpg':'','img/springcottages/sp_kitchen.jpg':'The cottage has a fully equipped kitchen', 'img/springcottages/sp_dining_1.jpg':'The dining table in the kitchen seats 6', 'img/springcottages/sp_double_bed_1.jpg':'The double bedroom', 'img/springcottages/sp_double_bed_2.jpg':'Double bedroom', 'img/springcottages/sp_single_bed_1.jpg':'The bright single bedroom overlooks the fields to the rear', 'img/springcottages/sp_twin_bedroom.jpg':'Twin bedrrom', 'img/springcottages/sp-bathroom.jpg':'Bathroom'} %}
+
+{% set sleeps=" 
 5
-{% endblock %}
+"%}
 
-{% block property_beds %}
-3 – one double, one twin and a single
-{% endblock %}
+{% set beds="
+3 – one double, one twin and a single"%}
 
-{% block amenities %}
+{% set amenities="
 •	Garden
 •	Fully equipped kitchen
 •	Washing machine
 •	Television
 •	Hairdryer?
-•	Bath
+•	Bath" %}
 
-{% endblock %}
+{% set location="The cottages are in the small village of Kenardington which is situated between the villages of Appledore and Hamstreet." %}
+{% set shop="xxx" %}
+{% set pub="xxx" %}
+{% set coast="xxx" %}
 
-{% block property_location %}
-The cottages are in the small village of Kenardington which is situated between the villages of Appledore and Hamstreet It is a perfect base for exploring the beautiful Kent and East Sussex countryside, exploring the Cinque Port town of Rye or a jaunt to the coast. Find out more about things to do in the area <a url='/activities'>here</a>.
-{% endblock %}
 
-{% block property_transport %} 
-TThere is off-street parking at the front of the property.
+{% set transport="There is off-street parking at the front of the property.
 <br>
 The nearest train station is Hamstreet which is X miles away and has trains towards Ashford and Brighton. Ashford International offers services to London in 40 minutes.<br>
-Bus services are available to XXX.  <br>
-There are a number of local taxi companies, details of these can be found here.
-
-{% endblock %}
+Bus services are available to XXX."%}

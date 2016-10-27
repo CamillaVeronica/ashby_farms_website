@@ -1,22 +1,150 @@
 {% extends 'layout.html' %}
+{% set title="Booking" %}
 
-{% block title %}Booking{% endblock %}
+{% block header %}
+{% endblock %}
 
 {% block content %}
 <div class='container'>
-<h3 class='display-1'> Provisional bookings can be made by phone or by email. These are only confirmed when we receive the completed
-booking form together with the security deposit.
-</h3>
-<h4>Weekly bookings</h4> <h3>Weekly bookings run from 2 p.m. Saturday to 10 a.m. Saturday.</h3>
-<h4>Short Breaks:-</h4>
-<h3>Short breaks are from 2 p.m. Friday to 10 a.m. Monday or from 2 p.m. Monday to 10 a.m. Friday 
-Exceptions:- Holidays commencing on days other than the above are often possible. Please don't hesitate to ask if you would like your holiday to start some other day.</h3>
-<h2>Payment</h2>
-<h3>We accept</h3>
-<h3> If the holiday is due to commence within four weeks from the date of booking, payment in full must be included with the booking form. residents</h3>
-<h4>Check in and check out</h4>
-<h3>Visitors are asked to arrive after 2 p.m. on the day of their arrival and leave before 10 a.m. on the day of their departure.</h3>
+<div><h1 class='display-1'>Booking</h1></div>
+<div>
+	<h3>How to Book</h3>
+	<p>Please call or email us to confirm availability and price for your stay.</p>
+	<p>To make a booking please complete and return our booking form which can be found <a>here</a>. This can be returned by email, fax or post.</p>
+	<p>Your booking is confirmed when we have recieved this and you have paid the security deposit.</p>
+	<h4>Deposit</h4>
+	<p>A security deposit equal to one month’s rental is required to secure your booking. This will be returned to you after your
+	stay, less any deductions for breakages etc.</p>
+	<p>We require a security deposity of £50 for holiday bookings and of the value of one month's rent for long lets.</p>
+	<h4>Payment</h4>
+	<p>We accept payment by:</p>
+	<p>We must receive full payment for your holiday at least four weeks before your arrival. If the holiday is due to commence
+	less than four weeks from the date of booking, full payment plus the security deposit must be included with the booking form.</p>
+
+	<button class='btn'>Download booking form</button>
+	<button class='btn'>Make and enquiry</button>
+	<button class='btn'>Request a brochure</button></div>
+
+
+<div id='booking' role='tabulist' aria-multiselectable='true'>
+	<div class='card'>
+		<div class='card-header' role='tab' id='Booking-Periods'>
+			<h4 class='mb-0'>
+				<a data-toggle='collapse' class='collapsed' data-parent='#booking' href="#holiday-booking-period-copy" aria-expanded='true' aria-controls='Holiday booking period information'>
+				Booking periods
+				</a>
+			</h4>
+		</div>
+		<div id='holiday-booking-period-copy' class='collapse' role='tabpanel' aria-labeledby='Booking-Periods' >
+			<div class='card-block'>
+				<h3>Weekly bookings</h3> 
+				<p>Weekly bookings run from 2 p.m. Saturday to 10 a.m. Saturday.<p>
+				<h3>Short Breaks</h3>
+				<p>Short breaks are from 2 p.m. Friday to 10 a.m. Monday or from 2 p.m. Monday to 10 a.m. Friday 
+				Exceptions:- Holidays commencing on days other than the above are often possible. Please don't hesitate to ask if you would like your holiday to start some other day.</p>
+				<h3>Long lets</h3>
+				<p>Long lets are usually booked on a monthly basis, however partial periods may be booked. Bookings are from 2 p.m. on the arrival date to 10 a.m. on the departure date.</p>
+				<p><i>Arrivals and Departures outside of these times can sometimes be arranged for an extra charge. Late departures will incur
+				an extra charge.</i></p>
+			</div>	
+		</div>
+	</div>
+
+	<div class='card'>
+		<div class='card-header' role='tab' id='Holiday-Prices'>
+		<h4 class='mb-0'>
+			<a data-toggle='collapse' class='collapsed' data-parent='booking' href="#holiday-price-list" aria-expanded='true' aria-controls='Price list for holidays'>
+			Price list
+			</a>
+		</h4>
+		</div>
+		<div id='holiday-price-list' class='collapse' role='tabpanel' aria-labeledby='Holiday-Prices' >
+			<div class='card-block'>
+				<h3>2016</h3>
+				<div class="embed-responsive embed-responsive-16by4">
+					<iframe class='embed-responsive-item' src="https://docs.google.com/spreadsheets/d/17sN8P7SK9zaum1qMChzZrU1sKEcWVdFvVD1YJBPALOo/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+				</div>
+				<h3>2017</h3>
+				<div class="embed-responsive embed-responsive-16by4">
+					<iframe class='embed-responsive-item' src="https://docs.google.com/spreadsheets/d/17sN8P7SK9zaum1qMChzZrU1sKEcWVdFvVD1YJBPALOo/pubhtml?gid=720678625&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class='card'>
+		<div class='card-header' role='tab' id='Longlet-Prices'>
+		<h4 class='mb-0'>
+			<a data-toggle='collapse' class='collapsed' data-parent='booking' href="#longlet-price-list" aria-expanded='true' aria-controls='Price list for longlets'>
+			Longlet Price list
+			</a>
+		</h4>
+		</div>
+		<div id='longlet-price-list' class='collapse' role='tabpanel' aria-labeledby='Longlet-Prices' >
+			<div class='card-block'>
+				<p>The rental charges above are a guide. If your stay spans more than one charging period the rate is calculated to reflect the proportion of each period, from this the monthly rental is derived for the length of your expected stay. Should you decide
+				to leave earlier than you originally planned (at least two weeks notice is required) the rate is recalculated to reflect your
+				actual length of stay and any difference is adjusted via in your returned security deposit should there be any further
+				money outstanding it will be invoiced to you. This flexibility is particularly appreciated by people who are between
+				house moves.</p>
+			</div>
+		</div>
+	</div>
+
+	<div class='card'>
+		<div class='card-header' role='tab' id='charges'>
+		<h4 class='mb-0'>
+			<a data-toggle='collapse' class='collapsed' data-parent='booking' href="#additional-charges" aria-expanded='true' aria-controls='Additional charges'>
+			Additional Charges
+			</a>
+		</h4>
+		</div>
+		<div id='additional-charges' class='collapse' role='tabpanel' aria-labeledby='additional-charges' >
+			<div class='card-block'>
+				<h3>Extra people</h3>
+				<p>There is an additional charge for more than four persons per property of £20 each (see booking form).</p>
+				<h3>Bed Linen</h3>
+				<p>
+					1 underblanket, 1 duvet and 2 pillows are provided free with each bed, there will be a charge for cleaning these if they are dirty after your stay. We provide, for an extra charge of £15.50 per double bed and £10.50 per single bed.<br><br> Each bed set includes 1 sheet, 1 duvet cover, 2 pillow cases, 1 hand towel, 1 bath towel and 1 tea towel.
+				</p>
+				<h3>Pets</h3>
+				<p>We welcome pets provided they are well-behaved, however we do charge an additional £10 per animal which covers the additional cleaning (hair etc.) that they create.</p>
+				<h3>Gas Central Heating</h3>
+				<p>The gas-fired central heating system is metered and must be fed with 50p pieces. 50p will usually equate to xxhrs use.</p>
+				<h3>Fishing</h3>
+				<p>Fishing is available in our two lakes. Fishing permits usually cost £4.50 per person per day or you can purchase a Family Fishing Permit which includes xxxx for £39.50. However there are some periods in the year when we offer fishing for residents at no additional charge (see below). You can find out more about fishing at Ashby Farms <a href='/fish'>here</a>.</p>
+				<h3>Shooting</h3>
+				<p>Rough shooting on our farms (not in the woods around Fisherman's Lodge), is available to residents. After your holiday rough shooting is generally available for an extra charge of £24 per gun per day. You can find out more about shooting at Ashby Farms <a href='/shoot'>here</a>.</p>
+			</div>
+		</div>
+	</div>
+
+	<div class='card'>
+		<div class='card-header' role='tab' id='discounts'>
+		<h4 class='mb-0'>
+			<a data-toggle='collapse' class='collapsed' data-parent='booking' href="#discounts-offers" aria-expanded='true' aria-controls='Discounts and offers'>
+			Discounts and Offers
+			</a>
+		</h4>
+		</div>
+		<div id='discounts-offers' class='collapse' role='tabpanel' aria-labeledby='discounts-offers' >
+			<div class='card-block'>
+				<h3>Senior Citizens</h3>
+				<p>With the exception of the weeks either side of a public holiday and the period between 14 June to 6 September, 			Senior Citizens may deduct 10% discount.</p>
+				<h3>Free fishing</h3>
+				<p>During the following periods guests at Fishermans Lodges may fish at no additional charge:
+					<ul>
+					<li>31st March - 28th April</li>
+					<li>5th - 26th May</li>
+					<li>2nd June - 14th July</li>
+					<li>14th July - 25th August</li>
+					<li>13th October - 3rd November</li>
+					</ul>
+				</p>
+			</div>
+		</div>
+	</div>
 </div>
-<!-- make dropdown containers for booking restrictions etc -->
+</div>
 
 {% endblock %}

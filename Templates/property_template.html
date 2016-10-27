@@ -13,22 +13,29 @@
 {% block content %}
 
 <div id="about" class="container">
-	<div class='page-header'><h2>{% block property_name %} Name {% endblock %}</h2></div>
+	<div class='page-header'><h2>{{title}}</h2></div>
 	<div>
-		<h3>{% block property_description %} Blurb blurb {% endblock %} 
-		</h3>
+		<p class='lead'>{{description|safe}}
+		</p>
 	</div>
 
 	<div class='row'>
 	<div class='col-md-6'>
-	<p><h4>Sleeps</h4> {% block property_sleeps %} {% endblock %}</p>
-	<h4>Beds</h4><p>{% block property_beds %} {% endblock %}</p>
+	<p><h4>Sleeps</h4> {{sleeps|safe}}</p>
+	<h4>Beds</h4><p>{{beds|safe}}</p>
 	<h4>Amenities</h4>
-	<ul>{% block amenities %} {% endblock %}</ul>
+	<ul>{{amenities|safe}}</ul>
 	<h4>Location</h4>
-	<p>{% block property_location %} {% endblock %}</p>
+	<p> {{location|e|safe}}</p>
+	<p>It is a perfect base for exploring the beautiful Kent and East Sussex countryside, exploring the Cinque Port town of Rye or a jaunt to the coast. Find out more about things to do in the area <a url='#'>here</a>.</p>
+	<p><h6>Nearest Shop:</h6>{{shop|safe}}
+	<h6>Pub:</h6>{{pub|safe}}
+	<h6>Coast:</h6>{{coast|safe}}</p>
 	<h4>Transport</h4>
-	<p>{% block property_transport %} {% endblock %}</p>
+	<p>{{transport|safe}}</p>
+	<p>There are a number of local taxi companies, details of these can be found here.</p>
+	<h4>Heating</h4>
+	<p>The propery has metered gas heating which must be payed for with 50ps</p>
 	</div>
 
 
@@ -49,48 +56,45 @@
 
 		
 <div class="container-fluid">
-	<div id='properties' class='row text-center circle-images'>
-		<div class="page-header"><h2>Other Properties</h2></div>
-		<div class="col-md-4">
-			
-			<div id="lodges" class="round">
-			<a href="">
-			<div>
-				<h1 >Fisherman's Lodges</h1>
-			</div>
-			</a>
-			</div>
-		</div>
-		<div  class="col-md-4">
-			
-				<div id='roughlands' class='round'> 
-				<a href="#">
-					<div>
-						<h1>Roughlands</h1>
+<div id='properties' class='text-xs-center text-xs-center'>
+	<a href="/properties"><h1 class='display-4'>Our Properties</h1></a>
+	<div class='card-deck-wrapper '>
+		<div class='card-deck'>
+			<div class='col-lg-4 col-md-4 col-sm-12'>
+			<div class="card">
+				<a href='/properties/lodges'>
+					<img class="card-img img-circle img-fluid" src={{url_for('static', filename='img/lodges/lodges_main_square.jpg')}} alt="Fisherman’s Lodges">
+					<div class='card-img-overlay'>
+						<span class='align-middle'>
+						<h1 class='card-title'>Fisherman's Lodges</h1>
+						</span>
 					</div>
 				</a>
+			</div>
+			</div>			
+			<div class='col-lg-4 col-md-4 col-sm-12'>
+			<div class="card">
+					<a href='/properties/roughlands'>
+						<img class="card-img img-circle img-fluid" src={{url_for('static', filename='img/roughlands/roughlands_external_square.jpg')}} alt="Roughlands">
+						<div class='card-img-overlay'>
+							<h1 class='card-title'>Roughlands</h1>
+						</div>
+				</a>
 				</div>
-			
-		</div>
-		<div class="col-md-4">
-			
-			<div id='cottages' class="round">
-			<a href="#">
-			<div>
-				<h1>Spring Cottages</h1>
 			</div>
-			</a>
+			<div class='col-lg-4 col-md-4 col-sm-12'>
+			<div class="card">
+				<a href='/properties/springcottages'>
+					<img class="card-img img-circle img-fluid" src={{url_for('static', filename='img/springcottages/spring_external_square.jpg')}} alt="Spring Cottages">
+					<div class='card-img-overlay'>
+						<h1 class='card-title'>Spring Cottages</h1>
+					</div>
+				</a>
 			</div>
-			
-		</div>
-		<!--<div  class="col-md-3">
-		 <div id='street65' class="round"
-			<div>
-				<h1>65 the Street</h1>
 			</div>
-			</div>> -->
 		</div>
 	</div>
+</div>
 </div>
 
 

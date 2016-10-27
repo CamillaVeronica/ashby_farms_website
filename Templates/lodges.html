@@ -12,47 +12,35 @@
 
 <!-- Details -->
 
-{% block title %} 
-The Lodges - Ashby Farms
-{% endblock %}
+{% set title="The Lodges" %}
 
-{% block property_name %}
-The Lodges
-{% endblock %}
-
-{% block property_description %} 
-8 Scandanavian-inspired lodges nestled on the banks of two manmade lakes offer an idyllic location for a getaway whether you are looking for a fishing break or a base for exploring the local area. The properties are surrounded by woodland offering peace and seclusion.
+{% set description= "8 Scandanavian-inspired lodges nestled on the banks of two manmade lakes offer an idyllic location for a getaway whether you are looking for a fishing break or a base for exploring the local area. The properties are surrounded by woodland offering peace and seclusion.
 <br> <br>
-Each lodge has one double and two twin rooms, a fully-equipped kitchen, bathroom and a spacious living room with large French windows looking out over your personal lakeside terrace.
-{% endblock %}
+Each lodge has one double and two twin rooms, a fully-equipped kitchen, bathroom and a spacious living room with large French windows looking out over your personal lakeside terrace."%}
 
-{% block property_sleeps %} 
-6 – multiple bookings are available for groups, you can find out more about this <a url='#'>here</a>
-{% endblock %}
 
-{% block property_beds %}
-3 – one double and two twin
-{% endblock %}
+{% set sleeps=" 
+6 – multiple bookings are available for groups, you can find out more about this <a url='#'>here</a>"%}
 
-{% block amenities %}
-<ul>Access to private fishing lakes</ul>
-<ul>Fully equiped kitchen</ul>
-<ul>Washing machine</ul>
+{% set beds="
+3 – one double and two twin"%}
+
+{% set amenities="
+Access to private fishing lakes;Fully equiped kitchen, Washing machine,
 •	Television
 •	Hairdryer?
 •	Bath
-{% endblock %}
+"%}
 
-{% block property_location %}
-The nearest village is Woodchurch which is 5 minutes away by car or a XX minute walk. It is a perfect base for exploring the beautiful Kent and East Sussex countryside, exploring the Cinque Port town of Rye or a jaunt to the coast. Find out more about things to do in the area <a url='#'>here</a>.
-{% endblock %}
 
-{% block property_transport %} 
-There is a carpark with an allocated space per property plus an overflow carpark. 
+{% set location = "The nearest village is Woodchurch which is 5 minutes away by car or a XX minute walk." %}
+{% set shop="xxx" %}
+{% set pub="xxx" %}
+{% set coast="xxx" %}
+
+
+{% set transport="There is a carpark with an allocated space per property plus an overflow carpark. 
 <br>
 The nearest train station is Appledore which has trains towards Ashford and Brighton. Ashford International offers services to London in 40 minutes.
 <br>
-Bus services are available from Woodchurch to XX and XX. 
-<br>
-There are a number of local taxi companies, details of these can be found here.
-{% endblock %}
+Bus services are available from Woodchurch to XX and XX." %}

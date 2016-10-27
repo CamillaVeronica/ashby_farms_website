@@ -1,5 +1,5 @@
 import os
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request, send_file, current_app as app
 
 app = Flask(__name__)
 
@@ -59,13 +59,10 @@ def history():
 def book():
 	return render_template('book.html')
 
-@app.route("/book/prices")
-def price_list():
-	return render_template('price_list.html')
-
 @app.route("/book/form")
 def booking_form():
-	return render_template('booking_form.html')
+	with open('static/file/Ashby_Farms_Ltd_Bookingform.pdf','rb') as static_file:
+		return send_file(static_file, attachment_filename='Ashby_Farms_Ltd_Bookingform.pdf')
 
 @app.route("/book/holiday")
 def holiday_booking():
@@ -74,6 +71,18 @@ def holiday_booking():
 @app.route("/blog")
 def blog():
 	return render_template('blog.html')
+
+@app.route("/privacy")
+def privacy():
+	return render_template('privacypolicy.html')
+
+@app.route("/location")
+def location():
+	return render_template('location.html')
+
+@app.route("/aboutus/faq")
+def faq():
+	return render_template('faq.html')
 
 if __name__ == "__main__":
 	app.run(host="127.0.0.1", port=5000,debug=True)

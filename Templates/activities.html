@@ -1,39 +1,81 @@
 {% extends "layout.html" %}
 
-{% block title %}Things to see and do{% endblock %}
+{% set title="Things to see and do" %}
 {% block header %}{% endblock %}
 {% block content %}
-<div id="about" class="container">
-	<h3>The surrounding area of Kent and East Sussex offers something for everyone with beaches and beautiful countryside to explore, historic towns such as Rye and Canterbury and a great food and drink culture with some of the top vineyards in the country on your doorstep. </h3>
-	<div class='row'>
-		<div class='col-sm-6'>
-			<h4>Get Outdoors</h4>
-			<br>Beaches	 - Camber Sands and Dungeoness
-			<br>Cycling – cycle tour website
-			<br>Hiking – link to good walks: Romney Marsh and Downs
-			<br>Fishing and Shooting
+<div class="container">
+	<p class='lead'>The surrounding area of Kent and East Sussex offers something for everyone with beaches and beautiful countryside to explore, historic towns such as Rye and Canterbury and a great food and drink culture with some of the top vineyards in the country on your doorstep. <p>
+	<p>You can find more ideas of things to do and see what we are getting up to on <a href="">Facebook</a>, <a href="">Instagram</a>, <a href="">Twitter</a> and <a href='/blog'>our blog</a>.</p>
+
+	<div id='activities' class='row text-xs-center'>
+		<div class='col-md-6'>
+			<div class='card'>
+				<img class='img-fluid card-img' src={{url_for('static', filename='img/fairfield_church.jpg')}} alt='Fairfield church'>
+				<div class='card-img-overlay'>
+					<div class='card-block'>
+						<h4 class='card-title'>Get Outdoors</h4>
+					</div>
+					<ul class="list-group list-group-flush">
+						<li class='list-group-item'><h6>Beaches</h6><p>Explore the dunes of <a href=''>Camber Sands</a> and <a href=''>Dungeoness</a>, England's only desert</p></li>
+						<li class='list-group-item'><h6>Cycling</h6><p>Hop on your bike to explore the area. Why not try ones of <a href=''>these routes</a>?</p></li>
+						<li class='list-group-item'><h6>Hiking</h6><p>The marsh and downs are <a href=''>fantastic for hikers and walkers</a></p></li>
+						<li class='list-group-item'><h6>Fishing</h6><p><a href='/fish'>In our lakes</a></p></li>
+						<li class='list-group-item'><h6>Shooting</h6><p><a href='/shoot'>On our farmland</a></p></li>
+					</ul>
+				</div>
+			</div>
 		</div>
-		<div class='col-sm-6'>
-			<h4>Family</h4>
-			<br>Camber Sands
-			<br>Port Lymne
-			<br>Mini Steam Train
-			<br>Rare Breeds Centre
+
+		<div class='col-md-6'>
+			<div class='card'>
+			<img class='img-fluid card-img' src={{url_for('static', filename='img/family_1.jpeg')}} alt='Family silhouette'>
+				<div class='card-img-overlay'>
+					<div class='card-block'>
+						<h3 class='card-title'>Family</h3>
+					</div>
+					<ul class="list-group list-group-flush">
+						<li class='list-group-item'><h6>Camber Sands</h6><p>These <a href=''>sandy beaches</a> are a perfect spot to enjoy good weather and practice your sandcastle building.</p></li>
+						<li class='list-group-item'><h6>Port Lymne</h6><p>Lions, tigers, elephants and more... <a href=''>Head here</a> for a safari experience without leaving our shores.</p></li>
+						<li class='list-group-item'><h6>Mini Steam Train</h6><p>The minature <a href=''>steam train from New Romney to Dungeoness</a> is a slice of history with a novel twist.</p></li>
+						<li class='list-group-item'><h6>Rare Breeds Centre</h6><p><a href=''>Meet unusual breeds</a> of all your favourite farm animals.</p></li>
+					</ul>
+				</div>
+			</div>
 		</div>
-		<div class='col-sm-6'>
-			<h4>Foodie</h4>
-			<br>Vineyards
-			<br>Breweries
-			<br>Kentish Fruit
-			<br>Whitstable Oysters
-			<br>Rye Scallops
+
+		<div class='col-md-6'>
+			<div class='card'>
+			<img class='img-fluid card-img' src={{url_for('static', filename='img/grapes.jpeg')}} alt='Grapes'>
+				<div class='card-img-overlay'>
+					<div class='card-block'>
+						<h3 class='card-title'>Foodie</h3>
+					</div>
+					<ul class="list-group list-group-flush">
+						<li class='list-group-item'><h6>Vineyards</h6><p>The rock of the champagne region runs through Kent and East Sussex allowing us to produce some excellent wines. See for yourself at vineyards such as <a href=''>Gusbourne</a> and <a href=''>Chapel Down</a>.</p></li>
+						<li class='list-group-item'><h6>Breweries</h6><p>Kent is famous for its hops, why not try some of our real ale at <a href=''>these local breweries</a>.</p></li>
+						<li class='list-group-item'><h6>Kentish Fruit</h6><p>This isn't called the Garden of England for nothing. In the summer there are lots of farms that you can visit to <a href=''>pick your own</a>.</p></li>
+						<li class='list-group-item'><h6>Whitstable Oysters</h6><p>Just 45 minutes away <a href=''>Whitstable</a> offers some of the finest seafood in the country. <a href=''>It even has a festival devoted to oysters every xxx</a>.</li>
+						<li class='list-group-item'><h6>Rye Scallops</h6><p>Rye is <a href=''>very easy to get</a> to and is another seafood-lover's paradise. It has a <a href=''>scallop festival in xxx</a> every year.</li>
+					</ul>
+				</div>
+			</div>
 		</div>
-		<div class='col-sm-6'>
-			<h4>Culture/History</h4>
-			<br>Canterbury Catherdral
-			<br>Smugglers Caves
-			<br>Sissinghurst
-			<br>Dover Castle
+		
+		<div class='col-md-6'>
+			<div class='card'>
+			<img class='img-fluid card-img' src={{url_for('static', filename='img/canterbury_cathedral.jpg')}} alt='Morris dancing at Canterbury Catherdral'>
+				<div class='card-img-overlay'>
+					<div class='card-block'>
+						<h3 class='card-title'>Culture and History</h3>
+					</div>
+					<ul class="list-group list-group-flush">
+						<li class='list-group-item'><h6>Canterbury</h6><p>Famed for its <a href="">Cathedral</a> and as a destination for pilgrimage, most famously in <a href="">The Canterbury Tales</a> this is a fantastic city to visit on your trip</a></p></li>
+						<li class='list-group-item'><h6>Smugglers Caves</h6><p>Learn about the role of Romney Marsh and the Kent and Sussex coast in smuggling at the <a href="">Smugglers Caves</a> in Hastings.</p></li>
+						<li class='list-group-item'><h6>Sissinghurst</h6><p><a href="">This property</a> has a rich and varied history, not to mention beautiful gardens to explore.</p></li>
+						<li class='list-group-item'><h6>Dover Castle</h6><p>From Tudor times through to the tunnels used during WW2 <a href=''>this castle</a> has something to interest any history buff.</p></li>
+					</ul>
+				</div>
+			</div>
 		</div>
 	</div>
 </div>

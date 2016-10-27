@@ -14,12 +14,12 @@
               <div class="carousel-item active">
                 {% block carousel_img1 %}<img class="img1" alt="View over the fishing lakes">{% endblock %}
                 <div class="carousel-caption">{% block carousel_caption1 %}
-                <p>View over fishing lakes</p>{% endblock %}
+                <h1 class='display-1'>A tranquil destination for your next holiday</h1>{% endblock %}
                 </div>
               </div>
               <div class="carousel-item">
              	{% block carousel_img2 %}
-                <img class="img2" alt="Family-friendly accomodation">
+                <img class="img2" alt="Roughlands">
                 {% endblock %}
                 <div class="carousel-caption">{% block carousel_caption2 %}
                 <p></p>{% endblock %}
@@ -27,7 +27,7 @@
               </div>
               <div class="carousel-item">
             	{% block carousel_img3 %}
-                <img class="img3" alt="Fishermans Lodges">
+                <img class="img3" alt="Spring cottages">
                 {% endblock %}
                 <div class="carousel-caption">{% block carousel_caption3 %}
                 <p></p>{% endblock %}
@@ -45,49 +45,46 @@
               <span class="sr-only">Next</span>
             </a>
           </div>  
-    	<div class="pullout"> 
-    		<h1>A tranquil destination for your next holiday</h1>
-    	</div>
 {% endblock %}
 
 {% block content %}
 <div class="container-fluid">
 	<div class="container">
 	<div class="row">
-		<h3 class='display-3'>Escape to the countryside with our country cottages and detached pine lodges set in bluebell woods overlooking 3 acres of water with a panoramic view of fields, woods and nearby unspoilt village. </h3>
-		<h3>At Ashby Farms we have been providing quality self-catering accomodation for over 25 years. It's our priority to make your holiday as easy and enjoyable as possible.</h3>
-		<h3>We have a selection of properties available to suit every need; from families, to couples to large groups, and for everything from a short break to several months.</h3>	
+		<h3 class='display-4'>Escape to the countryside with our <a href='/properties/springcottages'>country cottages</a> and detached <a href="/properties/lodges">pine lodges</a> set in bluebell woods overlooking 3 acres of water with a panoramic view of fields, woods and nearby unspoilt village. </h3><br>
+		<p class='lead'>At Ashby Farms we have been providing quality self-catering accomodation for over 25 years. It's our priority to make your holiday as easy and enjoyable as possible.</p><br>
+		<p class='lead'>We have a selection of properties available to suit every need; from families, to couples to large groups, and for everything from a short break to several months.</p>	
 		<br><br>
 	</div>
 	</div>
 </div>	
 <div class="key-points container">
 		<div class='row'>
-			<div class="col-sm-6 text-center">
+			<div class="col-sm-6 text-xs-center">
 					<div class='row'>
 					<div class='col-lg-2'><span class='fa fa-map-o fa-5x' aria-hidden="true"></span></div>
 					<div class='col-lg-10'><h3>Just 1.5 hours from London and major airports<h3></div>
 					</div>
 					<div class='row'>
-					<div class='col-lg-2'> <span class="glyphicon glyphicon-baby-formula"></span> </div> 
+					<div class='col-lg-2'> <span class="fa fa-paw fa-5x"></span> </div> 
 					<div class='col-lg-10'><h3>Family and pet friendly</h3></div>
 					</div>
 					<div class="row">
-					<div class="col-lg-2"><span class='glyphicon glyphicon-bed'></span> </div>
+					<div class="col-lg-2"><span class='fa fa-bed fa-5x'></span> </div>
 					<div class='col-lg-10'><h3>Properties available to sleep up to 6 people</h3></div>
 					</div>
 				</div>
-			<div class='col-sm-6 text-center'>
+			<div class='col-sm-6 text-xs-center'>
 				<div class='row'>
-				<div class="col-lg-2"><span class='glyphicon glyphicon-tree-deciduous'></span> </div>
+				<div class="col-lg-2"><span class='fa fa-pagelines fa-5x'></span> </div>
 				<div class='col-lg-10'><h3>Fishing in our beautiful lakes and rough shooting available</h3></div>
 				</div>
 				<div class='row'>
-				<div class='col-lg-2'><span class='glyphicon glyphicon-leaf'></span> </div>
+				<div class='col-lg-2'><span class='fa fa-tree fa-5x'></span> </div>
 				<div class='col-lg-10'><h3>Countryside location</h3></div>
 				</div>
 				<div class='row'>
-				<div class='col-lg-2'><span class='glyphicon glyphicon-calendar'></span></div>
+				<div class='col-lg-2'><span class='fa fa-calendar-check-o fa-5x'></span></div>
 				<div class="col-lg-10"> <h3>Long lets available</h3></div>
 				</div>
 				</div>
@@ -100,78 +97,50 @@
 </div>
 		
 {% block our_properties %}
-<div id='properties' class='text-center text-xs-center'>
-	<div class="page-header"><a href="/properties"><h2>Our Properties</h2></a></div>
+<div id='properties' class='text-xs-center text-xs-center'>
+	<a href="/properties"><h1 class='display-4'>Our Properties</h1></a>
 	<div class='card-deck-wrapper '>
 		<div class='card-deck'>
-			<div class='col-lg-4 col-md-4 col-sm-12'>
-			<div class="card card-inverse">
-				<img class="card-img img-circle img-fluid" src={{url_for('static', filename='img/lodges/lodges_main_square.jpg')}} alt="Fisherman’s Lodges">
-				<div class='card-img-overlay class="m-x-auto"'' style="width: 100%">
-					<a href='/properties/lodges'><h1 class='card-title'>Fisherman's Lodges</h1></a>
-				</div>
-			</div>
-			</div>			
-			<div class='col-lg-4 col-md-4 col-sm-12'>
-			<div class="card">
-					<a href='/properties/lodges'>
-						<img class="card-img img-circle img-fluid" src={{url_for('static', filename='img/lodges/lodges_main_square.jpg')}} alt="Fisherman’s Lodges">
-						<div class='card-img-overlay'>
-							<h1 class='card-title'>Fisherman's Lodges</h1>
-						</div>
-				</a>
-				</div>
-			</div>
 			<div class='col-lg-4 col-md-4 col-sm-12'>
 			<div class="card">
 				<a href='/properties/lodges'>
 					<img class="card-img img-circle img-fluid" src={{url_for('static', filename='img/lodges/lodges_main_square.jpg')}} alt="Fisherman’s Lodges">
 					<div class='card-img-overlay'>
+						<span class='align-middle'>
 						<h1 class='card-title'>Fisherman's Lodges</h1>
+						</span>
+					</div>
+				</a>
+			</div>
+			</div>			
+			<div class='col-lg-4 col-md-4 col-sm-12'>
+			<div class="card">
+					<a href='/properties/roughlands'>
+						<img class="card-img img-circle img-fluid" src={{url_for('static', filename='img/roughlands/roughlands_external_square.jpg')}} alt="Roughlands">
+						<div class='card-img-overlay'>
+							<h1 class='card-title'>Roughlands</h1>
+						</div>
+				</a>
+				</div>
+			</div>
+			<div class='col-lg-4 col-md-4 col-sm-12'>
+			<div class="card">
+				<a href='/properties/springcottages'>
+					<img class="card-img img-circle img-fluid" src={{url_for('static', filename='img/springcottages/spring_external_square.jpg')}} alt="Spring Cottages">
+					<div class='card-img-overlay'>
+						<h1 class='card-title'>Spring Cottages</h1>
 					</div>
 				</a>
 			</div>
 			</div>
-		</div>
-
-	</div>
-</div>
-		<div  class="col-md-4">
-			
-				<a href='/properties/roughlands'><div id='roughlands' class='round'> 
-								<a href="#">
-									<div>
-										<h1>Roughlands</h1>
-									</div>
-								</a>
-								</div></a>
-			
-		</div>
-		<div class="col-md-4">
-			
-			<a href='/properties/lodges'><div id='cottages' class="round">
-						<a href="#">
-						<div>
-							<h1>Spring Cottages</h1>
-						</div>
-						</a>
-						</div></a>
-			
-		</div>
-		<!--<div  class="col-md-3">
-		 <div id='street65' class="round"
-			<div>
-				<h1>65 the Street</h1>
-			</div>
-			</div>> -->
 		</div>
 	</div>
 </div>
 {% endblock %}
 
 <div class='container-fluid'>
-	<div class='row text-center'>
-			<h2>Location</h2>
+	<div class='row text-xs-center'>
+			<h1 class='display-4'>Location</h1>
 		     
 		<div id="googleMap" style="height:500px;width:100%;"></div>
 
@@ -204,10 +173,10 @@
 </div>
 		
 <div class='container-fluid light-green-fill'>
-	<div class="text-center card-deck-wrapper">
-		<div><h2>
+	<div class="text-xs-center card-deck-wrapper">
+		<div><h1 class='display-4'>
 		What our customers say
-		</h2>
+		</h1>
 		</div>
 		<div >
 		<div class="card-deck">
