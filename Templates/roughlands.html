@@ -1,13 +1,5 @@
 {% extends "property_template.html" %}
 
-{% block property_img1 %}
-"{{url_for('static', filename="img/Lodges/living_area.jpg") }}"
-{% endblock %}
-
-{% block property_img2 %}
-"{{url_for('static', filename="img/Lodges/dining_area.jpg") }}"
-{% endblock %}
-
 {% block header_img %} roughlands-cover
 {% endblock %}
 
@@ -28,22 +20,16 @@ Roughlands has one double bedroom with optional additional single bed and one tw
 {% set beds="
 2 – one double with single and one twin"%}
 
-{% set amenities="
-•	Garden
-•	Fully equiped kitchen
-•	Washing machine
-•	Television
-•	Hairdryer?
-•	Bath"
+{% set amenities="<li>Garden</li><li>Fully equiped kitchen</li><li>Washing machine</li><li>Television</li><li>Hairdryer</li><li>Bath</li>"
 %}
 
 {% set location = "The nearest village is Woodchurch which is about a mile away." %}
-{% set shop="xxx" %}
-{% set pub="xxx" %}
-{% set coast="xxx" %}
+{% set shop="1.4mi" %}
+{% set pub="1.6mi" %}
+{% set coast="13mi" %}
 
 
 {% set transport="The property offers plenty of space for parking.
-<br>
-The nearest train station is Appledore which has trains towards Ashford and Brighton. Ashford International offers services to London in 40 minutes.<br>
-Bus services are available from Woodchurch to XX and XX."%}
+<br><br>
+The nearest train station is <a href='http://www.nationalrail.co.uk/stations_destinations/APD.aspx'>Appledore</a> which has trains towards Ashford and Brighton. Ashford International offers services to London in 40 minutes.<br><br>
+Bus services are available from <a href='https://bustimes.org.uk/localities/E0047116'>Woodchurch to Ashford and Tenterden</a>."%}

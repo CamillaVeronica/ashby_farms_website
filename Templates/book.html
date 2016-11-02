@@ -1,5 +1,5 @@
 {% extends 'layout.html' %}
-{% set title="Booking" %}
+{% set title="How to book" %}
 
 {% block header %}
 {% endblock %}
@@ -7,10 +7,10 @@
 {% block content %}
 <div class='container'>
 <div><h1 class='display-1'>Booking</h1></div>
-<div>
+<div class='row'>
 	<h3>How to Book</h3>
 	<p>Please call or email us to confirm availability and price for your stay.</p>
-	<p>To make a booking please complete and return our booking form which can be found <a>here</a>. This can be returned by email, fax or post.</p>
+	<p>To make a booking please complete and return our booking form which can be found <a href='/book/form'>here</a>. This can be returned by email, fax or post.</p>
 	<p>Your booking is confirmed when we have recieved this and you have paid the security deposit.</p>
 	<h4>Deposit</h4>
 	<p>A security deposit equal to one month’s rental is required to secure your booking. This will be returned to you after your
@@ -20,10 +20,13 @@
 	<p>We accept payment by:</p>
 	<p>We must receive full payment for your holiday at least four weeks before your arrival. If the holiday is due to commence
 	less than four weeks from the date of booking, full payment plus the security deposit must be included with the booking form.</p>
-
-	<button class='btn'>Download booking form</button>
-	<button class='btn'>Make and enquiry</button>
-	<button class='btn'>Request a brochure</button></div>
+	<p>Our full booking conditions can be found <a href='/book/conditions/'>here</a>.</p>
+	<div class="row text-xs-center">
+		<a href="https://s3-eu-west-1.amazonaws.com/ashbyfarms.prod/static/file/Ashby_Farms_Ltd_Bookingform.pdf"><button class='btn'>Download booking form</button></a>
+		<a href="/contactus/"><button class='btn'>Make an enquiry</button></a>
+		<a href="/contactus/"><button class='btn'>Request a brochure</button></a>
+	</div><p></p>
+	</div>
 
 
 <div id='booking' role='tabulist' aria-multiselectable='true'>
@@ -61,13 +64,14 @@
 		<div id='holiday-price-list' class='collapse' role='tabpanel' aria-labeledby='Holiday-Prices' >
 			<div class='card-block'>
 				<h3>2016</h3>
-				<div class="embed-responsive embed-responsive-16by4">
-					<iframe class='embed-responsive-item' src="https://docs.google.com/spreadsheets/d/17sN8P7SK9zaum1qMChzZrU1sKEcWVdFvVD1YJBPALOo/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
-				</div>
+				<div></div>
+					<iframe  src="https://docs.google.com/spreadsheets/d/17sN8P7SK9zaum1qMChzZrU1sKEcWVdFvVD1YJBPALOo/pubhtml?gid=0&amp;single=true&amp;range=a1:i15&amp;widget=false&amp;headers=false&amp;chrome=false" width="100%" height="400px"></iframe>
+				
 				<h3>2017</h3>
-				<div class="embed-responsive embed-responsive-16by4">
-					<iframe class='embed-responsive-item' src="https://docs.google.com/spreadsheets/d/17sN8P7SK9zaum1qMChzZrU1sKEcWVdFvVD1YJBPALOo/pubhtml?gid=720678625&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+				<div >
+					<iframe  src="https://docs.google.com/spreadsheets/d/17sN8P7SK9zaum1qMChzZrU1sKEcWVdFvVD1YJBPALOo/pubhtml?gid=720678625&amp;single=true&amp;range=a1:i15&amp;widget=false&amp;headers=false&amp;chrome=false" width="100%" height="400px"></iframe>
 				</div>
+				<p class='lead'> Rows highlighted in <span style="background-color: rgba(135, 193, 135, 0.75)">green</span> are eligible for free fishing.</p>
 			</div>
 		</div>
 	</div>
@@ -110,9 +114,9 @@
 				<h3>Pets</h3>
 				<p>We welcome pets provided they are well-behaved, however we do charge an additional £10 per animal which covers the additional cleaning (hair etc.) that they create.</p>
 				<h3>Gas Central Heating</h3>
-				<p>The gas-fired central heating system is metered and must be fed with 50p pieces. 50p will usually equate to xxhrs use.</p>
+				<p>The gas-fired central heating system is metered and must be fed with 50p pieces.</p>
 				<h3>Fishing</h3>
-				<p>Fishing is available in our two lakes. Fishing permits usually cost £4.50 per person per day or you can purchase a Family Fishing Permit which includes xxxx for £39.50. However there are some periods in the year when we offer fishing for residents at no additional charge (see below). You can find out more about fishing at Ashby Farms <a href='/fish'>here</a>.</p>
+				<p>Fishing is available in our two lakes. Fishing permits usually cost £4.50 per person per day or you can purchase a Family Fishing Permit which includes 4 people for £39.50. However there are some periods in the year when we offer fishing for residents at no additional charge (see below). You can find out more about fishing at Ashby Farms <a href='/fish'>here</a>.</p>
 				<h3>Shooting</h3>
 				<p>Rough shooting on our farms (not in the woods around Fisherman's Lodge), is available to residents. After your holiday rough shooting is generally available for an extra charge of £24 per gun per day. You can find out more about shooting at Ashby Farms <a href='/shoot'>here</a>.</p>
 			</div>
@@ -132,14 +136,7 @@
 				<h3>Senior Citizens</h3>
 				<p>With the exception of the weeks either side of a public holiday and the period between 14 June to 6 September, 			Senior Citizens may deduct 10% discount.</p>
 				<h3>Free fishing</h3>
-				<p>During the following periods guests at Fishermans Lodges may fish at no additional charge:
-					<ul>
-					<li>31st March - 28th April</li>
-					<li>5th - 26th May</li>
-					<li>2nd June - 14th July</li>
-					<li>14th July - 25th August</li>
-					<li>13th October - 3rd November</li>
-					</ul>
+				<p>During certain periods guests at Fishermans Lodges may fish at no additional charge. These dates are highlighted in green on the <a href='#holiday-price-list'>price list</a>.
 				</p>
 			</div>
 		</div>

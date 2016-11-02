@@ -1,7 +1,56 @@
-{% extends 'layout.html' %}
-{% set title="Location" %}
+{% extends "layout.html" %}
+
+{% set title="Location"%}
 {% block content %}
-<div class='container'>
-	
+<div class="container">
+<div class='row text-xs-center'>
+<div class="col-sm-5">
+<p class='lead'>Our office is situated in Kenardington at our farm and we have properties in Kenardington, Woodchurch and Appledore. <br> The area sits at the edge of the Romney Marsh, which is famous for its beautiful, wild landscape. Nearby towns include Rye, Tenterden, Ashford, Canterbury and Tonbridge Wells. You can find more inspiration of things to do in the area <a href='/activities/'>here</a>.</p>
+<h5>Getting here</h4>
+<h6>Road</h6>
+<p>We are just 8 miles from Junction 10 of the M20.</p>
+<h6>Train</h6>
+<p>Ashford International is 10 miles away and can be reached in less than 40 minutes from London St Pancras.
+</p>
+<h6>Eurostar</h6>
+<p>If coming from the Continent the Eurostar stops at Ashford International, traveling from Brussels and France.</p>
+<h6>Ferry</h6>
+<p>The ferry port of Dover is less than an hour's drive away.</p>
+<h6>Plane</h6>
+<p>The major international airports of Gatwick and Heathrow can be reached in a couple of hours.</p>
+
+<a href="/contactus/"><button class='btn'>Contact Us</button></a>
+</div>
+<div class="col-sm-7">
+			     
+		<div id="googleMap" style="height:500px;width:100%;"></div>
+
+		<!-- Add Google Maps -->
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCIhUKo7n7JEJxVKerbTj61RHI2MswI3Q4&callback=initMap" type="text/javascript"></script>
+		<script>
+		var myCenter = new google.maps.LatLng(51.0616026,0.8116711);
+
+		function initialize() {
+		var mapProp = {
+		  center:myCenter,
+		  zoom:8,
+		  scrollwheel:false,
+		  draggable:false,
+		  mapTypeId:google.maps.MapTypeId.ROADMAP
+		  };
+
+		var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+
+		var marker = new google.maps.Marker({
+		  position:myCenter,
+		  });
+
+		marker.setMap(map);
+		}
+
+		google.maps.event.addDomListener(window, 'load', initialize);
+		</script>
+</div>
+</div>
 </div>
 {% endblock %}

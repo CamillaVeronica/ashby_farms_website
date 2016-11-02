@@ -1,6 +1,6 @@
 {% extends "layout.html" %}
 
-{% set title="Fishing"%}
+{% set title="Fishing for carp and more in our lakes"%}
 
 {% block header_img %}
 fishing-cover
@@ -8,18 +8,22 @@ fishing-cover
 
 {% block content %}
 <div class="container">
-<h3>Our two fishing lakes are available for fishing year round and are stocked with Bream, Gudgeon, Roach, Rudd, Tench (up to 5lb.), Common and Mirror Carp (up to 36lb.), Perch (up to 5 3/4 lb). </h3>
+<h3>Our two fishing lakes are available for fishing year round and are stocked with Bream, Gudgeon, Roach, Rudd, Tench, Common and Mirror Carp (up to 36lb.), Perch. </h3>
 <p class='lead'>We operate a catch and return policy.</p>
 <h3>Seasonal Fishing</h3>
 <p class='lead'>Between 16th. June to 15th. March - Angling is also available in streams and dykes on our farmland, where there is also some Pike. </p>
 <p class='lead'>For the benefit both of fish and fishermen, we restrict the number of people allowed to fish at any one time.</p>
 <h3>Free Fishing</h3>
-<p class='lead'>There is normally a charge for Fishing but free fishing is sometimes available for residents <a href="book/prices">(see Price List)</a>.</p>
+<p class='lead'>There is normally a charge for Fishing but free fishing is sometimes available for residents <a href="/book#holiday-price-list">(see Price List)</a>.</p>
 <h3>Fishing after your Holiday</h3>
 <p class='lead'>During the 12 months after your holiday, with the exception of weekends and bank-holidays, you are entitled to fish in our waters. Permit price is the normal daily rate and is subject to availability.</p>
 <h3>Catch of the Day</h3>
 <p class='lead'>Some of the top catches we’ve seen recently.</p>
-<p class='lead'>Had a spectacular catch? Let us know or tag us in a photo on social media @AshbyFarms so we can feature you.</p>
+<div class="row"><div class="col-xs-6 text-xs-center">
+<img class="rounded" src={{url_for('static', filename='img/catch1.jpg')}} alt="Ashby Farms customer with fish"> </div>
+<div class='col-xs-6 text-xs-center'>
+<img class="rounded" src={{url_for('static', filename='img/catch2.jpg')}} alt="Ashby Farms customer with fish"></div></div>
+<p class='lead'>Had a spectacular catch? Let us know or tag us in a photo on social media <a href="http://www.twitter.com/ashbyfarms">@AshbyFarms</a> so we can feature you.</p>
 </div>
 
 {% endblock %}

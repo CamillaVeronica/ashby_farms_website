@@ -4,6 +4,114 @@
 		"selected_items":
 		[
 			[
+				"form",
+				"form-group"
+			],
+			[
+				"fo",
+				"form-control"
+			],
+			[
+				"for",
+				"form-group"
+			],
+			[
+				"try",
+				"try\tTry/Except"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"te",
+				"text-xs-center"
+			],
+			[
+				"col",
+				"col-xs-4"
+			],
+			[
+				"lo",
+				"lodges"
+			],
+			[
+				"ru",
+				"roughlands"
+			],
+			[
+				"ashbyfar",
+				"ashbyfarms"
+			],
+			[
+				"rough",
+				"Roughlands"
+			],
+			[
+				"im",
+				"img-fluid"
+			],
+			[
+				"col-",
+				"col-xs-6"
+			],
+			[
+				"padding",
+				"padding-top: "
+			],
+			[
+				"margin",
+				"margin-bottom: "
+			],
+			[
+				"height",
+				"min-height: "
+			],
+			[
+				"paddi",
+				"padding-bottom: "
+			],
+			[
+				"paddin",
+				"padding-top: "
+			],
+			[
+				"proper",
+				"properties"
+			],
+			[
+				"di",
+				"display-2"
+			],
+			[
+				"af-",
+				"af-dark-grey"
+			],
+			[
+				"ou",
+				"outline-color: "
+			],
+			[
+				"bord",
+				"border-color: "
+			],
+			[
+				"af",
+				"af-dark-green"
+			],
+			[
+				"nav-",
+				"nav-link"
+			],
+			[
+				"dis",
+				"discounts-offers"
+			],
+			[
+				"holiday-pr",
+				"Holiday-Prices"
+			],
+			[
 				"header",
 				"header_img"
 			],
@@ -40,10 +148,6 @@
 				"padding-top: "
 			],
 			[
-				"paddin",
-				"padding-bottom: "
-			],
-			[
 				"import",
 				"important"
 			],
@@ -66,10 +170,6 @@
 			[
 				"card",
 				"card-img-overlay"
-			],
-			[
-				"padding",
-				"padding-right: "
 			],
 			[
 				"padd",
@@ -96,10 +196,6 @@
 				"border-color: "
 			],
 			[
-				"bord",
-				"border: "
-			],
-			[
 				"col-xs",
 				"col-xs-10"
 			],
@@ -108,20 +204,8 @@
 				"col-xs-2"
 			],
 			[
-				"col-",
-				"col-xs-2"
-			],
-			[
-				"col",
-				"col-sm-2"
-			],
-			[
 				"drop",
 				"dropdown-toggle"
-			],
-			[
-				"af",
-				"af-dark-grey"
 			],
 			[
 				"light",
@@ -144,10 +228,6 @@
 				"cover-image"
 			],
 			[
-				"margin",
-				"margin-top: "
-			],
-			[
 				"ba",
 				"background-color: "
 			],
@@ -162,10 +242,6 @@
 			[
 				"mar",
 				"margin-left: "
-			],
-			[
-				"back",
-				"background: "
 			],
 			[
 				"logo",
@@ -235,7 +311,7 @@
 			"file": "/C/Users/Camilla/Documents/ashby_farms_projects/Notes.txt",
 			"settings":
 			{
-				"buffer_size": 2284,
+				"buffer_size": 3404,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -244,7 +320,34 @@
 			"file": "Templates/index.html",
 			"settings":
 			{
-				"buffer_size": 7891,
+				"buffer_size": 7423,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Templates/layout.html",
+			"settings":
+			{
+				"buffer_size": 9788,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Templates/location.html",
+			"settings":
+			{
+				"buffer_size": 1284,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Templates/faq.html",
+			"settings":
+			{
+				"buffer_size": 2232,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -253,34 +356,70 @@
 			"file": "Templates/65street.html",
 			"settings":
 			{
-				"buffer_size": 2135,
+				"buffer_size": 1946,
 				"encoding": "UTF-8",
-				"line_ending": "Windows"
+				"line_ending": "Unix"
 			}
 		},
 		{
 			"file": "Templates/property_template.html",
 			"settings":
 			{
-				"buffer_size": 3160,
+				"buffer_size": 4236,
 				"encoding": "UTF-8",
-				"line_ending": "Windows"
+				"line_ending": "Unix"
 			}
 		},
 		{
 			"file": "Templates/roughlands.html",
 			"settings":
 			{
-				"buffer_size": 2266,
+				"buffer_size": 1844,
 				"encoding": "UTF-8",
-				"line_ending": "Windows"
+				"line_ending": "Unix"
 			}
 		},
 		{
 			"file": "Templates/OurProperties.html",
 			"settings":
 			{
-				"buffer_size": 3934,
+				"buffer_size": 4426,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Templates/Booking conditions.html",
+			"settings":
+			{
+				"buffer_size": 2791,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Static/sass/_palette.scss",
+			"settings":
+			{
+				"buffer_size": 531,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Templates/book.html",
+			"settings":
+			{
+				"buffer_size": 7889,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app.py",
+			"settings":
+			{
+				"buffer_size": 1901,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -289,25 +428,16 @@
 			"file": "Templates/contact.html",
 			"settings":
 			{
-				"buffer_size": 1212,
+				"buffer_size": 5045,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "Templates/layout.html",
+			"file": "Templates/blog.html",
 			"settings":
 			{
-				"buffer_size": 7864,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "Templates/booking_holiday.html",
-			"settings":
-			{
-				"buffer_size": 1049,
+				"buffer_size": 22,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -316,16 +446,8 @@
 			"file": "Templates/booking_long_let.html",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 2883,
 				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "Templates/booking_long_let",
-			"settings":
-			{
-				"buffer_size": 0,
 				"line_ending": "Windows"
 			}
 		},
@@ -333,25 +455,25 @@
 			"file": "Templates/lodges.html",
 			"settings":
 			{
-				"buffer_size": 2204,
+				"buffer_size": 2180,
 				"encoding": "UTF-8",
-				"line_ending": "Windows"
+				"line_ending": "Unix"
 			}
 		},
 		{
 			"file": "Templates/oldfarm.html",
 			"settings":
 			{
-				"buffer_size": 1989,
+				"buffer_size": 1830,
 				"encoding": "UTF-8",
-				"line_ending": "Windows"
+				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app.py",
+			"file": "freeze.py",
 			"settings":
 			{
-				"buffer_size": 1749,
+				"buffer_size": 125,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -360,16 +482,7 @@
 			"file": "Templates/price_list.html",
 			"settings":
 			{
-				"buffer_size": 46339,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "Templates/book.html",
-			"settings":
-			{
-				"buffer_size": 1134,
+				"buffer_size": 46342,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -378,16 +491,8 @@
 			"file": "Templates/booking_form.html",
 			"settings":
 			{
-				"buffer_size": 27,
+				"buffer_size": 210,
 				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "Static/css/main.css",
-			"settings":
-			{
-				"buffer_size": 8097,
 				"line_ending": "Windows"
 			}
 		},
@@ -395,34 +500,52 @@
 			"file": "Templates/shooting.html",
 			"settings":
 			{
-				"buffer_size": 743,
+				"buffer_size": 776,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Static/sass/_images.scss",
+			"settings":
+			{
+				"buffer_size": 709,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Templates/privacypolicy.html",
+			"settings":
+			{
+				"buffer_size": 9614,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
 			}
 		},
 		{
 			"file": "Templates/springcottages.html",
 			"settings":
 			{
-				"buffer_size": 1918,
+				"buffer_size": 2322,
 				"encoding": "UTF-8",
-				"line_ending": "Windows"
+				"line_ending": "Unix"
 			}
 		},
 		{
 			"file": "Templates/fishing.html",
 			"settings":
 			{
-				"buffer_size": 1393,
+				"buffer_size": 1757,
 				"encoding": "UTF-8",
-				"line_ending": "Windows"
+				"line_ending": "Unix"
 			}
 		},
 		{
 			"file": "Templates/History.html",
 			"settings":
 			{
-				"buffer_size": 1274,
+				"buffer_size": 1246,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -431,9 +554,19 @@
 			"file": "Templates/activities.html",
 			"settings":
 			{
-				"buffer_size": 1172,
+				"buffer_size": 6824,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Templates/contact_old.html",
+			"settings":
+			{
+				"buffer_size": 5943,
+				"encoding": "UTF-8",
+				"line_ending": "Windows",
+				"name": "<form action=\"https://www.firenet.co.uk/cgi-bin/fo"
 			}
 		}
 	],
@@ -444,20 +577,20 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 150.0,
-		"last_filter": "Snippet: ",
+		"height": 392.0,
+		"last_filter": "Package Control: ",
 		"selected_items":
 		[
 			[
-				"Snippet: ",
-				"Snippet: jinjaurl"
-			],
-			[
 				"Package Control: ",
 				"Package Control: Install Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: jinjaurl"
 			]
 		],
-		"width": 379.0
+		"width": 392.0
 	},
 	"console":
 	{
@@ -485,9 +618,29 @@
 	],
 	"file_history":
 	[
+		"/C/Users/Camilla/AppData/Roaming/Sublime Text 3/Packages/Package Control/Package Control.sublime-settings",
+		"/C/Users/Camilla/Documents/ashby_farms_projects/ashby_farms_website/runtime.txt",
+		"/C/Users/Camilla/Documents/ashby_farms_projects/ashby_farms_website/Procfile.windows",
+		"/C/Users/Camilla/Documents/ashby_farms_projects/ashby_farms_website/Procfile",
+		"/C/Users/Camilla/Documents/ashby_farms_projects/ashby_farms_website_2/fabfile/bootstrap.py",
+		"/C/Users/Camilla/Documents/ashby_farms_projects/ashby_farms_website_2/oauth.py",
+		"/C/Users/Camilla/Documents/ashby_farms_projects/ashby_farms_website_2/app_config.py",
+		"/C/Users/Camilla/Documents/ashby_farms_projects/ashby_farms_website_2/.git/config",
+		"/C/Users/Camilla/Documents/ashby_farms_projects/ashby_farms_website_2/app_config.pyc",
+		"/C/Users/Camilla/Documents/ashby_farms_projects/ashby_farms_website_2/app.py",
+		"/C/Users/Camilla/Documents/ashby_farms_projects/ashby_farms_website_2/node_modules/less/node_modules/request/node_modules/hawk/test/readme.js",
+		"/C/Users/Camilla/Documents/ashby_farms_projects/ashby_farms_website/build/properties/springcottages",
+		"/C/Users/Camilla/Documents/ashby_farms_projects/ashby_farms_website/build/properties/65street",
+		"/C/Users/Camilla/OneDrive/Documents/codefirst_advanced/Website/pythonwebsite/hello.py",
+		"/C/Users/Camilla/Documents/Heroku/python-getting-started/Procfile",
+		"/C/Users/Camilla/Documents/Heroku/python-getting-started/Procfile.windows",
+		"/C/Users/Camilla/Documents/ashby_farms_projects/ashby_farms_website/obsolete/sass/main.scss",
+		"/C/Users/Camilla/Documents/ashby_farms_projects/ashby_farms_website/Static/sass/main.scss",
+		"/C/Users/Camilla/Documents/ashby_farms_projects/ashby_farms_website/Static/css/main.css",
+		"/C/Users/Camilla/Documents/ashby_farms_projects/ashby_farms_website/Templates/book.html",
+		"/C/Users/Camilla/Downloads/palette.scss",
 		"/C/Users/Camilla/Documents/ashby_farms_projects/ashby_farms_website/Templates/property_template - Copy.html",
 		"/C/Users/Camilla/Documents/ashby_farms_projects/font-awesome/css/font-awesome.css",
-		"/C/Users/Camilla/Documents/ashby_farms_projects/ashby_farms_website/Static/sass/main.scss",
 		"/C/Users/Camilla/Documents/ashby_farms_projects/ashby_farms_website/Templates/contact.html",
 		"/C/Users/Camilla/AppData/Roaming/Sublime Text 3/Packages/User/jinjaurl.sublime-snippet",
 		"/C/Users/Camilla/AppData/Roaming/Sublime Text 3/Packages/User/jinjablock.sublime-snippet",
@@ -508,10 +661,8 @@
 		"/C/Users/Camilla/Documents/ashby_farms_projects/ashby_farms_website/ashby_farms_website_subtxt.sublime-project",
 		"/C/Users/Camilla/Documents/ashby_farms_projects/ashby_farms_website/.gitignore",
 		"/C/Users/Camilla/Documents/ashby_farms_projects/ashby_farms_website/LICENSE.md",
-		"/C/Users/Camilla/Documents/ashby_farms_projects/ashby_farms_website/Templates/book.html",
 		"/C/Users/Camilla/Documents/ashby_farms_projects/ashby_farms_website/README.md",
 		"/C/Users/Camilla/AppData/Roaming/Sublime Text 3/Packages/User/Package Control.sublime-settings",
-		"/C/Users/Camilla/Documents/ashby_farms_projects/ashby_farms_website/Static/css/main.css",
 		"/C/Users/Camilla/Documents/ashby_farms_projects/ashby_farms_website/Static/sass/_images.scss",
 		"/C/Users/Camilla/Documents/ashby_farms_projects/ashby_farms_website/app2.py",
 		"/C/Users/Camilla/Documents/ashby_farms_projects/ashby_farms_website/app-Copy.py",
@@ -527,7 +678,6 @@
 		"/C/Users/Camilla/OneDrive/Documents/Ashby_farms_new/AshbyFarms/index.html",
 		"/C/Users/Camilla/OneDrive/Documents/codefirst_advanced/Website/pythonwebsite/templates/about1.html",
 		"/C/Users/Camilla/OneDrive/Documents/Ashby_farms_new/AshbyFarms/OurProperties.html",
-		"/C/Users/Camilla/OneDrive/Documents/codefirst_advanced/Website/pythonwebsite/hello.py",
 		"/C/Users/Camilla/Documents/Ashby Farms Website/hello.py",
 		"/C/Users/Camilla/Documents/Ashby Farms Website/Templates/index.html",
 		"/C/Users/Camilla/OneDrive/Documents/codefirst_advanced/Website/python-getting-started/hello/views.py",
@@ -560,7 +710,6 @@
 		"/C/Users/Camilla/OneDrive/Documents/Ashby_farms_new/AshbyFarms/properties.html",
 		"/C/Users/Camilla/OneDrive/Documents/Ashby_farms_new/AshbyFarms/style/sass/placeholders/_palette.scss",
 		"/C/Users/Camilla/OneDrive/Documents/Ashby_farms_new/AshbyFarms/style/sass/.sassbuilder-config",
-		"/C/Users/Camilla/AppData/Roaming/Sublime Text 3/Packages/Package Control/Package Control.sublime-settings",
 		"/C/Users/Camilla/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 		"/C/Users/Camilla/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
 		"/C/Users/Camilla/OneDrive/Documents/Ashby_farms_new/AshbyFarms/style/sass/placeholders/palette.scss"
@@ -574,6 +723,11 @@
 		"height": 90.0,
 		"where_history":
 		[
+			"C:\\Users\\Camilla\\Documents\\ashby_farms_projects\\ashby_farms_website\\Templates",
+			"C:\\Users\\Camilla\\Documents\\ashby_farms_projects\\ashby_farms_website\\Templates,C:\\Users\\Camilla\\Documents\\ashby_farms_projects\\ashby_farms_website\\Static\\sass",
+			"C:\\Users\\Camilla\\Documents\\ashby_farms_projects\\ashby_farms_website\\Templates",
+			"-*.dds,-*.eot,-*.gif,-*.ico,-*.jar,-*.jpeg,-*.jpg,-*.log,-*.pdf,-*.png,-*.swf,-*.tga,-*.ttf,-*.zip,C:\\Users\\Camilla\\Documents\\ashby_farms_projects\\ashby_farms_website\\Templates",
+			"-*.dds,-*.eot,-*.gif,-*.ico,-*.jar,-*.jpeg,-*.jpg,-*.log,-*.pdf,-*.png,-*.swf,-*.tga,-*.ttf,-*.zip,C:\\Users\\Camilla\\Documents\\ashby_farms_projects\\ashby_farms_website",
 			"C:\\Users\\Camilla\\Documents\\ashby_farms_projects\\ashby_farms_website\\Templates"
 		]
 	},
@@ -582,94 +736,134 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"<a",
-			"a",
-			"<a",
-			"navbar",
-			"images",
-			"lightgallery/",
+			"County",
+			"address1",
+			"surname",
+			"Surname",
+			"surname",
+			"exampleInputEmail1",
+			"forename",
+			"h6",
+			"<a>",
+			"#",
+			"<div class='col-xs-4'>",
+			"<img class",
+			"img/",
+			"img/Rough",
+			"img/",
 			"img",
-			"js",
-			"css",
-			"images",
-			"container-fluid",
-			"container-fluid ",
-			"container",
-			"content",
-			"image-responsive",
-			"img-responsive",
-			"h3",
-			"1",
+			"xx",
+			"a href",
+			"pub",
+			"\"pub\"",
+			"pub",
+			" mx-auto d-block",
+			"<font face=\"Garamond,'Times New Roman','Times New Roman',Times,serif,serif\" size=\"5\" color=\"#FF0000\">",
+			"<font face=\"Garamond,'Times New Roman','Times New Roman',Times,serif,serif\" size=\"+2\" color=\"#008000\">",
+			"<font face=\"Garamond,'Times New Roman','Times New Roman',Times,serif,serif\" size=\"3\" color=\"Green\">",
+			"drone",
+			"sp4",
+			"sc_",
+			"spring_ex",
+			"sp4",
+			"spring_ex",
+			"spring",
+			"set shop",
+			"sp4",
+			"sp_rear",
+			"sc_external_2",
+			"sc_external_1",
+			"lodges1",
+			"img/springcottages",
+			"img/65street",
+			"img/drone",
+			"img/oldfarm",
+			"img/lodges",
+			"img/roughlands",
+			"a {",
+			"href",
+			"static",
+			"stati",
+			"home",
+			"static",
+			"{{{{",
+			"')",
+			"url_for",
+			"1C5h5Th6LaqNtSUaquXj1p7f0Dsvy1WjJ48ek_hn8O3I",
+			"href=",
+			"href",
+			"route(\"",
+			"text/html",
+			"<img src=\"graphics/aright.gif\" width=\"14\" height=\"13\" border=\"0\" alt=\">\">&nbsp;",
 			"caption",
-			"<div class='col-md-4 property-card'>",
-			"<div class='col-md-4 property-card'>\n\t\t\t<div class='thumbnail'>\n\t\t\t<img class='img-responsive'",
-			"responsive",
-			"img-responsive",
-			"image-fluid",
-			"card-img-top",
-			"img-responsive",
-			"<p class=\"card-text\"><small class=\"text-muted\">Last updated 3 mins ago</small></p>",
-			"item",
-			"dropdown-toggle",
-			"caret",
-			"$margin",
-			"key-points",
-			"col-md-4",
-			"nav",
-			"p>",
-			"p",
-			"P",
-			"p",
-			"p>",
-			"image-responsive",
-			"img1",
-			"&nbsp;",
-			"p>",
-			"p",
-			"2",
-			"xs",
-			"4",
-			"div",
-			"4",
+			"small-text",
+			"carou",
+			"name",
+			"carou",
+			"margin",
+			"padding",
+			"carouse",
+			"h4",
 			"sm",
-			"5",
+			"center",
+			"<li class='list-group-item'>",
+			"togg",
+			"rgba",
+			"carousel",
+			"img class='",
+			"src='",
+			"class='card-img'",
+			" card-block",
+			"<br>",
+			"card'",
+			"<h4",
+			"'card-img-overlay'",
+			"card-heade",
+			"<div class='card'>",
+			"collapse in",
+			"collapse-in",
+			"margin",
+			"nav",
+			"card",
+			"data-toggle='collapse' ",
+			"panel-collapse",
+			"<h2>",
+			"panel-title",
+			"panel-heading",
+			"class=\"panel panel-default\"",
+			"<p",
 			"4",
-			"2",
-			"light-o",
-			"light-on",
-			"md",
-			"h2",
 			"p",
-			"ot",
-			"ott",
+			"h3",
+			"about",
+			"p",
+			"h3",
+			"Card link",
 			"2",
-			"_thumb1",
-			"2",
-			" block property",
-			"{% block property_img3 %}\"\"{% endblock %}",
-			"2",
-			"{% endblock %}",
-			" ",
-			"\"{{url_for('static', filename=\"images/Lodges/dining_area.jpg\") }}\"",
-			"1",
-			"is",
-			"most",
-			"lodges",
-			"img",
-			"stuff",
-			"content",
-			"script",
-			"scrip",
-			"DIST",
+			"h2",
+			"text-center",
+			"h3",
 			"pull",
-			"glyph",
+			"carouse",
+			"a {",
+			" a",
 			"a",
-			"hover",
-			"h1",
-			"pull",
-			"min-height",
-			"font",
-			"centre"
+			"a{",
+			">",
+			"<",
+			"navba",
+			"<li class=\"nav-item\">",
+			"<a",
+			"</li>",
+			"<li class=\"nav-item\">",
+			"li class=\"",
+			"logo",
+			"<li",
+			"3.3.7",
+			"}}",
+			"dscf5207.jpg",
+			"navbar",
+			"image-bg"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -677,6 +871,21 @@
 		"regex": false,
 		"replace_history":
 		[
+			"SP4",
+			"SC_",
+			"Spring_ex",
+			"SP4",
+			"SC_external_1",
+			"img/SpringCottages",
+			"img/65Street",
+			"img/Drone",
+			"img/OldFarm",
+			"img/Lodges",
+			"img/Roughlands",
+			"text-xs-center",
+			"set sleeps=\"",
+			"set beds=\"",
+			"{% set transport=\"",
 			"img",
 			"img-fluid"
 		],
@@ -689,7 +898,7 @@
 	"groups":
 	[
 		{
-			"selected": 7,
+			"selected": 12,
 			"sheets":
 			[
 				{
@@ -698,15 +907,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2284,
+						"buffer_size": 3404,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								598,
-								598
+								94,
+								73
 							]
 						],
 						"settings":
@@ -717,7 +926,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 15,
+					"stack_index": 18,
 					"type": "text"
 				},
 				{
@@ -726,15 +935,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 7891,
+						"buffer_size": 7423,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5754,
-								5754
+								3030,
+								3030
 							]
 						],
 						"settings":
@@ -743,170 +952,27 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1591.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 19,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "Templates/65street.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2135,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								75,
-								75
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 14,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "Templates/property_template.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3160,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1345,
-								1122
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 180.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 8,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "Templates/roughlands.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2266,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								291,
-								291
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "Templates/OurProperties.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3934,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								429,
-								429
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 60.0,
+						"translation.y": 660.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 10,
 					"type": "text"
 				},
 				{
-					"buffer": 6,
-					"file": "Templates/contact.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1212,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								39,
-								40
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 18,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
+					"buffer": 2,
 					"file": "Templates/layout.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 7864,
+						"buffer_size": 9788,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5990,
-								5990
+								3696,
+								3696
 							]
 						],
 						"settings":
@@ -914,27 +980,27 @@
 							"syntax": "Packages/HTML/HTML.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 2006.0,
+						"translation.y": 3975.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
-					"buffer": 8,
-					"file": "Templates/booking_holiday.html",
+					"buffer": 3,
+					"file": "Templates/location.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1049,
+						"buffer_size": 1284,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								24,
-								24
+								51,
+								51
 							]
 						],
 						"settings":
@@ -949,20 +1015,333 @@
 					"type": "text"
 				},
 				{
-					"buffer": 9,
-					"file": "Templates/booking_long_let.html",
+					"buffer": 4,
+					"file": "Templates/faq.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 2232,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								1746,
+								1746
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 285.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 19,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "Templates/65street.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1946,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								94,
+								94
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 15,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "Templates/property_template.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4236,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								965,
+								965
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "Templates/roughlands.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1844,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								39,
+								39
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 14,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "Templates/OurProperties.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4426,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2479,
+								2479
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 780.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "Templates/Booking conditions.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2791,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								113,
+								113
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 21.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 23,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "Static/sass/_palette.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 531,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								529,
+								504
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Syntax Highlighting for Sass/Syntaxes/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "Templates/book.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7889,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3411,
+								3411
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1725.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "app.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1901,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1504,
+								1504
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 315.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "Templates/contact.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5045,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								439,
+								439
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "Templates/blog.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 22,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								21,
+								21
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 26,
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "Templates/booking_long_let.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2883,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								168,
+								790
 							]
 						],
 						"settings":
@@ -974,52 +1353,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 28,
 					"type": "text"
 				},
 				{
-					"buffer": 10,
-					"file": "Templates/booking_long_let",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 11,
+					"buffer": 16,
 					"file": "Templates/lodges.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2204,
+						"buffer_size": 2180,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								241,
-								241
+								2049,
+								2049
 							]
 						],
 						"settings":
@@ -1027,84 +1378,83 @@
 							"syntax": "Packages/HTML/HTML.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 12,
-					"type": "text"
-				},
-				{
-					"buffer": 12,
-					"file": "Templates/oldfarm.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1989,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								288,
-								288
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 11,
-					"type": "text"
-				},
-				{
-					"buffer": 13,
-					"file": "app.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1749,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1517,
-								1517
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": -0.0,
-						"translation.y": 613.0,
+						"translation.y": 270.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 16,
 					"type": "text"
 				},
 				{
-					"buffer": 14,
-					"file": "Templates/price_list.html",
+					"buffer": 17,
+					"file": "Templates/oldfarm.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 46339,
+						"buffer_size": 1830,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								595,
-								595
+								884,
+								884
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 195.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 17,
+					"type": "text"
+				},
+				{
+					"buffer": 18,
+					"file": "freeze.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 125,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								125,
+								125
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 25,
+					"type": "text"
+				},
+				{
+					"buffer": 19,
+					"file": "Templates/price_list.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 46342,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								650,
+								650
 							]
 						],
 						"settings":
@@ -1117,194 +1467,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 9,
-					"type": "text"
-				},
-				{
-					"buffer": 15,
-					"file": "Templates/book.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1134,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								301,
-								691
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 17,
-					"type": "text"
-				},
-				{
-					"buffer": 16,
-					"file": "Templates/booking_form.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 27,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								12,
-								12
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 20,
-					"type": "text"
-				},
-				{
-					"buffer": 17,
-					"file": "Static/css/main.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 8097,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 22,
-					"type": "text"
-				},
-				{
-					"buffer": 18,
-					"file": "Templates/shooting.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 743,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								121,
-								121
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 19,
-					"file": "Templates/springcottages.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1918,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								289,
-								289
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
+					"stack_index": 24,
 					"type": "text"
 				},
 				{
 					"buffer": 20,
-					"file": "Templates/fishing.html",
+					"file": "Templates/booking_form.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1393,
+						"buffer_size": 210,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								120,
-								120
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 45.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 13,
-					"type": "text"
-				},
-				{
-					"buffer": 21,
-					"file": "Templates/History.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1274,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								64,
-								64
+								164,
+								164
 							]
 						],
 						"settings":
@@ -1319,20 +1499,193 @@
 					"type": "text"
 				},
 				{
-					"buffer": 22,
-					"file": "Templates/activities.html",
+					"buffer": 21,
+					"file": "Templates/shooting.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1172,
+						"buffer_size": 776,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								113,
-								81
+								396,
+								396
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 22,
+					"file": "Static/sass/_images.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 709,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								174,
+								174
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Syntax Highlighting for Sass/Syntaxes/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 23,
+					"file": "Templates/privacypolicy.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9614,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								58,
+								58
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 27,
+					"type": "text"
+				},
+				{
+					"buffer": 24,
+					"file": "Templates/springcottages.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2322,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1968,
+								1970
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 470.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 13,
+					"type": "text"
+				},
+				{
+					"buffer": 25,
+					"file": "Templates/fishing.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1757,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1290,
+								1290
+							],
+							[
+								1447,
+								1447
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 225.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 22,
+					"type": "text"
+				},
+				{
+					"buffer": 26,
+					"file": "Templates/History.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1246,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								770,
+								770
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 20,
+					"type": "text"
+				},
+				{
+					"buffer": 27,
+					"file": "Templates/activities.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6824,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1113,
+								1113
 							]
 						],
 						"settings":
@@ -1346,6 +1699,36 @@
 					},
 					"stack_index": 21,
 					"type": "text"
+				},
+				{
+					"buffer": 28,
+					"file": "Templates/contact_old.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5943,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								726,
+								726
+							]
+						],
+						"settings":
+						{
+							"auto_name": "<form action=\"https://www.firenet.co.uk/cgi-bin/fo",
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 135.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
 				}
 			]
 		}
@@ -1356,7 +1739,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 31.0
 	},
 	"layout":
 	{
@@ -1431,7 +1814,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 197.0,
+	"side_bar_width": 258.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

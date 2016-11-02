@@ -1,7 +1,7 @@
 @import 'palette';
 @import 'images';
 
-$cover-height: 40rem;
+$cover-height: 30rem;
 $cover-padding: 0px 0px 0px 0px;
 $cover-margin: 0 0 0 0;
 
@@ -123,6 +123,12 @@ $default-section-size:350px;
  	background-size: contain;
  	background-position: left;
  }
+
+ @media all and (max-width: 576px) {
+     #logo {
+       display:none;
+     }
+}
 
  #content{
  	padding-bottom: 10px;
@@ -265,7 +271,7 @@ color: #fff; }
 					text-decoration: none;
 					}
 				.card-title{
-					padding-top: 1.5rem;
+					padding-top: 6rem;
 				}
 			}
 			div:hover{
@@ -357,6 +363,9 @@ a:visited{
 		color: $af-light-green;
 	}
 
+a:focus{
+		color: $af-light-green;
+	}
 
 .property-card {
 	height: 400px;
@@ -370,8 +379,13 @@ a:visited{
 
 
 
-.btn{
+.btn, .btn-primary{
 	@include light-on-dark;
+	border-color: $af-dark-green;
+	.btn-primary:active, .btn-primary:focus, .btn-primary:hover{
+		background-color: $af-light-green;
+		color: $af-dark-grey;
+	}
 }
 
 #activities{
@@ -392,4 +406,14 @@ a:visited{
 
 #banner{
 	margin-bottom: 1.5rem;
+}
+
+#footer {
+	padding-top: 1rem;
+	img{
+		margin-top: 2rem;
+	}
+	.fa{
+		color: #fff;
+	}
 }
