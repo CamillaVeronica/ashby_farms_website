@@ -122,6 +122,9 @@ $default-section-size:350px;
  	height: $logo-space;
  	background-size: contain;
  	background-position: left;
+ 	div{
+ 		height:$logo-space;
+ 	}
  }
 
  .logo-nav{
@@ -431,11 +434,24 @@ a:focus{
 }
 
 #footer {
-	padding-top: 1rem;
+	padding-top: 3rem;
 	img{
 		margin-top: 2rem;
 	}
 	.fa{
 		color: #fff;
+	}
+}
+
+.payment-types{
+	span{
+		color: $af-dark-green;
+	}
+}
+
+.social-icons{
+	span{
+		padding-left: 0.5rem;
+		padding-right: 0.5rem;
 	}
 }

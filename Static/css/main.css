@@ -26,6 +26,8 @@ $pale: hsla(93%, 100%, 94%, 1);
   height: 100px;
   background-size: contain;
   background-position: left; }
+  #logo div {
+    height: 100px; }
 
 .logo-nav {
   line-height: 32px;
@@ -119,7 +121,7 @@ $pale: hsla(93%, 100%, 94%, 1);
   .carousel div {
     min-height: 33rem; }
   .carousel .lodges-cover {
-    background-image: url("../img/dscf5207.jpg");
+    background-image: url("../img/lodges/porch.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center; }
@@ -134,7 +136,7 @@ $pale: hsla(93%, 100%, 94%, 1);
     background-repeat: no-repeat;
     background-position: center; }
   .carousel .street-cover {
-    background-image: url("../img/65street/65street.jpg");
+    background-image: url("../img/65street/65street_external3.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center; }
@@ -242,7 +244,7 @@ $pale: hsla(93%, 100%, 94%, 1);
       background-color: none;
       visibility: hidden; }
   .circle-images #lodges {
-    background-image: url("../img/dscf5207.jpg");
+    background-image: url("../img/lodges/porch.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center; }
@@ -257,7 +259,7 @@ $pale: hsla(93%, 100%, 94%, 1);
     background-repeat: no-repeat;
     background-position: center; }
   .circle-images #street65 {
-    background-image: url("../img/65street/65street.jpg");
+    background-image: url("../img/65street/65street_external3.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center; }
@@ -323,10 +325,17 @@ a:focus {
   margin-bottom: 1.5rem; }
 
 #footer {
-  padding-top: 1rem; }
+  padding-top: 3rem; }
   #footer img {
     margin-top: 2rem; }
   #footer .fa {
     color: #fff; }
+
+.payment-types span {
+  color: #0d511c; }
+
+.social-icons div {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem; }
 
 /*# sourceMappingURL=main.css.map */
