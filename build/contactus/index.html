@@ -132,29 +132,31 @@
 			<select class='form-control' id='title'>
 				<option>Mr</option>
 				<option>Mrs</option>
+				<option>Miss</option>
 				<option>Ms</option>
 				<option>Dr</option>
+				<option>Prof</option>
 			</select>
 		</div>
 		<div class='form-group'>
 			<label for='forename'>First name *</label>
-			<input type="text" name="forename" id="forename" class='form-control' placeholder='' required>
+			<input type="text" name="Forename" id="forename" class='form-control' placeholder='' required>
 		</div>
 		<div class='form-group'>
 			<label for='surname'>Surname *</label>
-			<input type="text" name="surname" id="surname" class='form-control' placeholder='' required>
+			<input type="text" name="Surname" id="surname" class='form-control' placeholder='' required>
 		</div>
 	  	<div class="form-group">
-		    <label for="email">Email address*</label>
-		    <input type="email" name='email'
+		    <label for="email">Email address *</label>
+		    <input type="email" name='_replyto'
 		    class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email" required>
 		    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
 	  	</div>
 	  	<div class='form-group'>
 			<label for='address1'>Address 1 *</label>
-			<input type="text" name="address1" id="address1" class='form-control' placeholder='' required>
+			<input type="text" name="Address1" id="address1" class='form-control' placeholder='' required>
 			<label for='address2'>Address 2 </label>
-			<input type="text" name="address2" id="address2" class='form-control' placeholder='' >
+			<input type="text" name="Address2" id="address2" class='form-control' placeholder=''>
 			<label for='Town'>Town </label>
 			<input type="text" name="Town" id="Town" class='form-control' placeholder=''>
 			<label for='County'>County </label>
@@ -164,50 +166,54 @@
 		</div>
 		<div class='form-group'>
 			<label for='phone'>Phone number *</label>
-			<input type="number" name="phoneno" id='phone' class='form-control' required>
+			<input type="number" name="Phone" id='phone' class='form-control' required>
 		</div>
 		<div class='form-group'>
 			<legend>What are you getting in touch regarding?</legend>
 	    	<div class="form-check">
 	      	<label class="form-check-label">
-	        <input type="radio" class="form-check-input" name="optionsRadios" id="Bookhol" value="bookhol" checked>
+	        <input type="radio" class="form-check-input" name="Enquiry Reason" id="Bookhol" value="BookHoliday" checked>
 	        I'd like to make a holiday booking
 	      	</label>
 	    	</div>
 	    	<div class="form-check">
 	      	<label class="form-check-label">
-	        <input type="radio" class="form-check-input" name="optionsRadios" id="BookLL" value="BookLL" checked>
+	        <input type="radio" class="form-check-input" name="Enquiry Reason" id="BookLL" value="BookLongLet" checked>
 	        I'm interested in booking a long let
 	      	</label>
 	    	</div>
 	    	<div class="form-check">
 	      	<label class="form-check-label">
-	        <input type="radio" class="form-check-input" name="optionsRadios" id="Brochure" value="brochure" >
+	        <input type="radio" class="form-check-input" name="Enquiry Reason" id="Brochure" value="Brochure" >
 	        Please send me a brochure
 	      	</label>
 	    	</div>
 	    	<div class="form-check">
 	      	<label class="form-check-label">
-	        <input type="radio" class="form-check-input" name="optionsRadios" id="Other" value="Other" checked>
+	        <input type="radio" class="form-check-input" name="Enquiry Reason" id="Other" value="Other" checked>
 	       	Other
 	      	</label>
 	    	</div>
 		</div>
 		<div class="form-group">
 		    <label for="message">Message</label>
-		    <textarea class="form-control" id="message" name='message' rows="4"></textarea>
-		    <small class="form-text text-muted">If you are interested in making a booking please advise us of the dates that you are ineterested in staying.</small>
+		    <textarea class="form-control" id="message" name='Message' rows="4"></textarea>
+		    <small class="form-text text-muted">If you are interested in making a booking please advise us of the dates that you are interested in staying.</small>
 	  	</div>
 	  	<div class='form-group'>
 			<label for="foundout">How did you find out about us?</label>
-			<select class='form-control' id='foundout' name='foundout'>
+			<select class='form-control' id='foundout' name='FoundOut'>
 				<option>Friend/family recommended</option>
 				<option>Review website</option>
 				<option>Publication</option>
 				<option>Search</option>
+				<option>Social Media</option>
 				<option>Other</option>
 			</select>
 		</div>
+		<input type="hidden" name="_subject" value="Enquiry for Ashby Farms" />
+		<input type="hidden" name="_cc" value="chayseldenashby@gmail.com" />
+		<input type="hidden" name="_next" value="http://www.ashbyfarms.com/contactus/success/" />
 	  <div class='text-xs-center'><button type="submit" value='Send' class="btn btn-primary">Submit</button></div>
 	  <p>
 	</form>

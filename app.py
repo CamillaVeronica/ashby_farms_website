@@ -36,6 +36,10 @@ def street65():
 def contactus():
 	return render_template('contact.html', meta_description='Get in touch with Ashby Farms about booking your holiday.')
 
+@app.route("/contactus/success/")
+def form_submitted():
+	return render_template('formsuccess.html', meta_description='Enquiry form submitted successfully.')
+
 @app.route("/activities/")
 def activities():
 	return render_template('activities.html', meta_description='Highlights of the activities that are available close to Ashby Farms in Kent and Sussex. Includes options for families, culture, outdoor activities and foodies.')
