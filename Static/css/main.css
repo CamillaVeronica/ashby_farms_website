@@ -165,6 +165,11 @@ $pale: hsla(93%, 100%, 94%, 1);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center; }
+  .carousel .fishing-rod {
+    background-image: url("../img/fishingrod.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; }
 
 #carousel-home .img1 {
   background-image: url("../img/drone/lodges_aerial1.jpg");
@@ -334,7 +339,7 @@ a:focus {
 .payment-types span {
   color: #0d511c; }
 
-.social-icons div {
+.social-icons span {
   padding-left: 0.5rem;
   padding-right: 0.5rem; }
 

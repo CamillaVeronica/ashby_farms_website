@@ -253,6 +253,9 @@ color: #fff; }
 	.cover1{
 		@include image-bg($lodges-aerial-1);
 	}
+	.fishing-rod{
+		@include image-bg($fishing-tackle);
+	}
 }
 
 #carousel-home{

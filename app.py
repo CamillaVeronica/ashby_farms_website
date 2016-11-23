@@ -87,5 +87,9 @@ def location():
 def faq():
 	return render_template('faq.html', meta_description='frequently asked questions')
 
+@app.route("/404/")
+def notfound():
+	return render_template('404.html', meta_description='404. Page not found')
+
 if __name__ == '__main__':
 	app.run(host="127.0.0.1", port=5000,debug=True)
