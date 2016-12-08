@@ -277,16 +277,22 @@ $pale: hsla(93%, 100%, 94%, 1);
 #footer {
   background-color: #0d511c;
   color: #ffffff;
-  min-height: 150px;
-  font-size: 12px;
-  line-height: 13px;
-  padding: 7.5px; }
+  min-height: 150px; }
+  #footer a {
+    color: white; }
   #footer .row {
-    max-height: 135px;
     min-height: 12px;
-    margin: 0px; }
+    margin: 0px;
+    padding-top: 2rem; }
   #footer .img-fluid {
+    align-content: center;
     max-height: 135px; }
+  #footer #memberships {
+    background-color: #d8dad3;
+    padding-bottom: 2rem; }
+    #footer #memberships img {
+      margin-left: auto;
+      margin-right: auto; }
 
 a {
   color: #0d511c; }
@@ -329,12 +335,8 @@ a:focus {
 #banner {
   margin-bottom: 1.5rem; }
 
-#footer {
-  padding-top: 3rem; }
-  #footer img {
-    margin-top: 2rem; }
-  #footer .fa {
-    color: #fff; }
+#footer .fa {
+  color: #fff; }
 
 .payment-types span {
   color: #0d511c; }

@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"paddin",
+				"padding-top"
+			],
+			[
 				"padd",
 				"padding-top"
 			],
@@ -42,10 +46,6 @@
 			[
 				"col-",
 				"col-xs-12"
-			],
-			[
-				"paddin",
-				"padding-right: "
 			],
 			[
 				"logo",
@@ -331,18 +331,56 @@
 			"file": "Templates/contact.html",
 			"settings":
 			{
-				"buffer_size": 5420,
+				"buffer_size": 5503,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Templates/book.html",
+			"settings":
+			{
+				"buffer_size": 10333,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
 			}
 		},
 		{
 			"file": "Templates/formsuccess.html",
 			"settings":
 			{
-				"buffer_size": 409,
+				"buffer_size": 1158,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Templates/lodges.html",
+			"settings":
+			{
+				"buffer_size": 2696,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n  {% block head %}\n    <meta charset=\"utf-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->\n    <meta name=\"author\" content=\"Camilla Hayselden-Ashby, Ashby Farms Ltd.\">\n    <link rel=\"icon\" href=\"../../favicon.ico\">\n    <title>{% block title %}Ashby Farms - {{title}}{% endblock %}</title>\n    <meta name=\"ROBOTS\" content=\"INDEX,FOLLOW\">\n\n    <meta name=\"description\" content={{meta_description}}>\n\n    <!-- Bootstrap core CSS -->\n \t<link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/css/bootstrap.min.css\" integrity=\"sha384-2hfp1SzUoho7/TsGGGDaFdsuuDL0LX2hnUp6VkX3CUQ2K4K+xjboZdsXyp4oUHZj\" crossorigin=\"anonymous\">\n\n    <!-- Own CSS -->\n    <link rel=\"stylesheet\" type=text/css href=\"{{url_for('static', filename='css/main.css')}}\">\n\t\n\n\t<!-- Fonts and icons-->\n\n \t<link href=\"http://fonts.googleapis.com/css?family=Montserrat\" rel=stylesheet\" type=\"text/css\">\n  \t<link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>\n  \t<link rel=\"stylesheet\" type=text/css href=\"{{url_for('static', filename='css/font-awesome.min.css')}}\">\n\n    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->\n    <!--[if lt IE 9]>\n      <script src=\"https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js\"></script>\n      <script src=\"https://oss.maxcdn.com/respond/1.4.2/respond.min.js\"></script>\n    <![endif]-->\n    <!-- favicon -->\n    <link rel=\"shortcut icon\" href=\"{{url_for('static', filename='img/favicon.ico')}}\" type=\"image/x-icon\">\n\t<link rel=\"icon\" href=\"{{url_for('static', filename='img/favicon.ico')}}\" type=\"image/x-icon\">\n\t<!-- Begin Cookie Consent plugin by Silktide - http://silktide.com/cookieconsent -->\n\t<script type=\"text/javascript\">\n\t    window.cookieconsent_options = {\"message\":\"This website uses cookies to ensure you get the best experience on our website\",\"dismiss\":\"Got it!\",\"learnMore\":\"More info\",\"link\":\"http://www.ashbyfarms.com/privacy/\",\"theme\":\"light-bottom\"};\n\t</script>\n\n\t<script type=\"text/javascript\" src=\"//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/1.0.10/cookieconsent.min.js\"></script>\n<!-- End Cookie Consent plugin -->\n\n    {% endblock %}\n</head>\n\n<body>\n<div id=\"banner\">{% block banner %}\n<div id=\"logo\">\n\t<a href=\"/\">\n\t\t<div class=\"col-md-10 col-xs-8\"></div>\n\t</a>\n\t<div class='col-md-2 col-xs-4 text-xs-center social-icons'>\n\t\t<br>\n\t\t<a href='http://www.twitter.com/ashbyfarms'><span class='fa fa-twitter fa-1x'></span></a>\n\t\t<a href=\"http://www.instagram.com/ashbyfarms\"><span class='fa fa-instagram fa-1x'></span></a>\n\t\t<a href=\"http://www.facebook.com/ashbyfarmsholidays\"><span class='fa fa-facebook fa-1x'></span></a>\n\t</div>\n</div>\n\n\t<nav class=\"navbar navbar-full\" role=\"navigation\">\n\t   <button class=\"navbar-toggler hidden-lg-up float-xs-right\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarResponsive\" aria-controls=\"navbarResponsive\" aria-expanded=\"false\" aria-label=\"Toggle navigation\"></button>\n\t   <div class='logo-nav'>\n\t   \t<div class=\"social-icons\">\n\t   \t<a href='http://www.twitter.com/ashbyfarms'><span class='fa fa-twitter fa-1x'></span></a>\n\t\t<a href=\"http://www.instagram.com/ashbyfarms\"><span class='fa fa-instagram fa-1x'></span></a>\n\t\t<a href=\"http://www.facebook.com/ashbyfarmsholidays\"><span class='fa fa-facebook fa-1x'></span></a>\n\t\t</div>\n\t\t<a href='/'><div>\n\t\t\tAshby Farms\n\t\t</div></a>\n\t   </div> \n  \t\t<div class=\"collapse navbar-toggleable-md\" id=\"navbarResponsive\">\n\t      <ul class=\"nav navbar-nav\">\n\t        <li class=\"nav-item dropdown\">\n\t        \t<a class='nav-link dropdown-toggle dropdown-toggle-split' data-toggle='dropdown' href=\"/aboutus\" id=\"responsiveNavbarDropdown\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">About<span class='sr-only'></span></a>\n\t        \t<div class=\"dropdown-menu\" aria-labelledby=\"responsiveNavbarDropdown\">\n\t\t        \t<a class='dropdown-item' href=\"{{url_for('history')}}\">History</a>\n\t\t        \t<a class='dropdown-item' href=\"{{url_for('location')}}\">Location</a>\n\t\t            <a class='dropdown-item' href=\"{{url_for('blog')}}\">News</a>\n\t\t            <a class='dropdown-item' href=\"{{url_for('faq')}}\">FAQ</a>\n\t  \t        </div>\n\t        </li>\n\t \t\t<li class=\"nav-item dropdown\">\n\t          <a class='nav-link dropdown-toggle dropdown-toggle-split' data-toggle='dropdown' href=\"{{url_for('our_properties')}}\" id=\"responsiveNavbarDropdown\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">Our Properties<span class=\"sr-only\"></span></a>\n\t          <div class=\"dropdown-menu\" aria-labelledby=\"responsiveNavbarDropdown\">\n\t          \t<a class='dropdown-item' href=\"{{url_for('our_properties')}}\">All properties</a>\n\t          \t<div class=\"dropdown-divider\"></div>\n\t            <a class='dropdown-item' href=\"{{url_for('lodges')}}\">Fisherman's Lodges</a>\n\t            <a class='dropdown-item' href=\"{{url_for('roughlands')}}\">Roughlands</a>\n\t            <a class='dropdown-item' href=\"{{url_for('springcottages')}}\">Spring Cottages</a>\n\t            <a class='dropdown-item' href=\"{{url_for('street65')}}\">65 The Street</a>\n\t            <a class='dropdown-item' href=\"{{url_for('oldfarm')}}\">Old Farm Flat</a>\n\t          </div>\n\t        </li>\n\t\t\t<li class=\"nav-item\">\n\t\t\t\t<a class='nav-link' href=\"{{url_for('fishing')}}\">Fishing</a>\n\t\t\t</li>\n\t\t\t<li class=\"nav-item\">\n\t\t\t\t<a class='nav-link' href=\"{{url_for('shooting')}}\">Shooting</a>\n\t\t\t</li>\n\t\t\t<li class=\"nav-item\">\n\t\t\t\t<a class='nav-link' href=\"{{url_for('activities')}}\">Activities</a>\n\t\t\t</li>\n\t\t\t<li class=\"nav-item dropdown\">\n\t           <a class='nav-link dropdown-toggle dropdown-toggle-split' data-toggle='dropdown' href=\"{{url_for('book')}}\" id=\"responsiveNavbarDropdown\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">Book<span class=\"sr-only\"></span></a>\n\t          <div class=\"dropdown-menu\" aria-labelledby=\"responsiveNavbarDropdown\">\n\t\t          \t<a class='dropdown-item' href=\"{{url_for('book')}}\">Booking</a>\n\t\t          \t<div class=\"dropdown-divider\"></div>\n\t\t            <a class='dropdown-item' href=\"/book/#holiday-price-list\">Price list</a>\n\t\t            <a class='dropdown-item' href=\"/book/#discounts-offers\">Offers and Discounts</a>\n\t\t            <a class='dropdown-item' href=\"/static/file/Ashby_Farms_Ltd_Bookingform.pdf\">Booking form</a>\n\t            </div>\n\t        </li>\n\t\t\t<li class=\"nav-item\">\n\t\t\t\t<a class='nav-link' href=\"{{url_for('contactus')}}\">Contact Us</a>\n\t\t\t</li> \n\t      </ul>\n\t      <!-- <ul class=\"nav navbar-nav navbar-right\"\n\t        <li>Subscribe</li>\n\t      </ul>> -->\n\t    </div></>\n\t</nav>\n\t{% endblock %}\n</div>\n<div id=\"header\" class=\"container-fluid\" >\n\t{% block header %}\n    <div class='carousel'>\n    <div class='{% block header_img %}cover1{% endblock %}'>\n    </div>\n    <div class='carousel-caption'><h1 class='display-1'>{{title}}</h1></div>\n\t</div>\n\t{% endblock %}\n</div>\n\n<div id='content'><p></p>{% block content %}{% endblock %}</div>\n\n<div id=\"footer\" class=\"container-fluid text-xs-center\">\n\t{% block footer %}\n\t<div class='row'>\n\t\t<div class='col-xs-4 text-xs-center'>\n\t\t<img class='img-fluid' src='{{url_for('static', filename='img/ETB3star.jpg')}}'>\n\t\t</div>\n\t\t<div class='col-xs-4 text-xs-center'>\n\t\t\t<a href='http://www.visitsoutheastengland.com/accommodation/ashby-farms-ltd-p25613'><img class='img-fluid img-circle' src='{{url_for('static', filename='img/tourismsoutheast.jpg')}}'></a>\t\t\n\t\t</div>\n\t\t<div class=\"col-xs-4 text-xs-center\">\n\t\t\t<a href='http://http://www.visitashfordandtenterden.co.uk/'><img class='img-fluid' src='{{url_for('static', filename='img/attalogo.png')}}'></a>\t\n\t\t\t</div>\n\t</div>\n\t<div class='row' style=\"padding-top: 1rem\">\n\t\t<div class='col-md-3 col-xs-12'>\n\t\t\t<p><strong>ABOUT</strong>\n\t\t\t<p><a href='/History'>History</a></p>\n\t\t\t<p><a href=\"/privacy\">Privacy Policy</a></p>\n\t\t\t<p><a href=\"/contactus\">Contact Us</a></p>\n\t\t\t<a href=\"{{url_for('location')}}\">Location</a>\n\t\t            <a href=\"{{url_for('blog')}}\">News</a>\n\t\t            <a href=\"{{url_for('faq')}}\">FAQ</a>\n\t\t\t\n\t\t\t<address><p>Ashby Farms Ltd <br> Place Farm <br> Kenardington <br> Ashford <br> Kent, TN26 2LZ</p></address>\n\t\t\t<p>(+44) 1233 733332</p>\n\t\t\t<p></p>\n\t\t</div>\n\t\t<div class=\"col-md-3 col-xs-12\">\n\t\t\t<p><strong>PROPERTIES</strong></p>\n\t\t\t<p><strong>ACTIVITIES</strong></p>\n\t\t\t\n\t\t</div>\n\t\t<div class=\"col-md-3 col-xs-12\">\n\t\t\t\n\t\t\t<p><strong>BOOK</strong></p>\n\t\t</div>\n\t\t<div class=\"col-md-3 col-xs-12\">\n\t\t\t\t\t\t<p><strong>Follow Us</strong></p>\n\t\t\t<div class=\"social-icons\">\n\t\t\t\t<a href='http://www.twitter.com/ashbyfarms'><span class='fa fa-twitter fa-2x'></span></a><br><BR>\n\t\t\t\t<a href=\"http://www.instagram.com/ashbyfarms\"><span class='fa fa-instagram fa-2x'></span></a><br><br>\n\t\t\t\t<a href=\"http://www.facebook.com/ashbyfarmsholidays\"><span class='fa fa-facebook fa-2x'></span></a><br><br>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n\t<div class='row'>\n\t<div class='col-xs-12'>\n\t<br>\n\t<p><small>Created by C.Hayselden-Ashby (c) Ashby Farms Ltd</small></p>\n\t\n\t</div>\n\t</div>\n\t{% endblock %}\n</div>\n\n</div>\n</div>\n{% block scripts %}\n <!-- Bootstrap core JavaScript\n    ================================================== -->\n    <!-- Placed at the end of the document so the pages load faster -->\n    <script src=\"https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js\" integrity=\"sha384-THPy051/pYDQGanwU6poAc/hOdQxjnOEXzbT+OuUAFqNqFjL+4IGLBgCJC3ZOShY\" crossorigin=\"anonymous\"></script>\n\t<script src=\"https://cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js\" integrity=\"sha384-Plbmg8JY28KFelvJVai01l8WyZzrYWG825m+cZ0eDDS1f7d/js6ikvy1+X+guPIB\" crossorigin=\"anonymous\"></script>\n\t<script src=\"https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/js/bootstrap.min.js\" integrity=\"sha384-VjEeINv9OSwtWFLAtmc4JCtEJXXBub00gtSnszmspDLCtC0I4z4nqz7rEFbIZLLU\" crossorigin=\"anonymous\"></script>\n    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug \n    <script src=\"../../assets/js/ie10-viewport-bug-workaround.js\"></script> -->\n        <!-- Google Analytics -->\n\t<script>\n\t  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\n\t  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\n\t  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\n\t  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');\n\n\t  ga('create', 'UA-86442959-1', 'auto');\n\t  ga('send', 'pageview');\n\n\t</script>\n {% endblock %}\n\n</body>\n</html>",
+			"file": "Templates/layout.html",
+			"file_size": 10524,
+			"file_write_time": 131255842638214679,
+			"settings":
+			{
+				"buffer_size": 10690,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Templates/privacypolicy.html",
+			"settings":
+			{
+				"buffer_size": 9627,
+				"line_ending": "Unix"
 			}
 		},
 		{
@@ -376,16 +414,35 @@
 			"file": "build/404/index.html",
 			"settings":
 			{
-				"buffer_size": 9364,
+				"buffer_size": 9363,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "Templates/layout.html",
+			"file": "Templates/oldfarm.html",
 			"settings":
 			{
-				"buffer_size": 9710,
+				"buffer_size": 2201,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Templates/springcottages.html",
+			"settings":
+			{
+				"buffer_size": 2486,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Templates/65street.html",
+			"settings":
+			{
+				"buffer_size": 2978,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
@@ -402,7 +459,7 @@
 			"file": "Static/sass/main.scss",
 			"settings":
 			{
-				"buffer_size": 7447,
+				"buffer_size": 7410,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -462,16 +519,17 @@
 		"/C/Users/Camilla/Documents/ashby_farms_projects/ashby_farms_website/aspnet_client",
 		"/C/Users/Camilla/Documents/ashby_farms_projects/ashby_farms_website/aspnet_client/system_web",
 		"/C/Users/Camilla/Documents/ashby_farms_projects/ashby_farms_website/aspnet_client/system_web/1_1_4322",
-		"/C/Users/Camilla/Documents/ashby_farms_projects/ashby_farms_website/build",
-		"/C/Users/Camilla/Documents/ashby_farms_projects/ashby_farms_website/build/404",
+		"/C/Users/Camilla/Documents/ashby_farms_projects/ashby_farms_website/build/contactus",
+		"/C/Users/Camilla/Documents/ashby_farms_projects/ashby_farms_website/build/contactus/success",
+		"/C/Users/Camilla/Documents/ashby_farms_projects/ashby_farms_website/Copy",
 		"/C/Users/Camilla/Documents/ashby_farms_projects/ashby_farms_website/Static",
-		"/C/Users/Camilla/Documents/ashby_farms_projects/ashby_farms_website/Static/css",
 		"/C/Users/Camilla/Documents/ashby_farms_projects/ashby_farms_website/Static/sass",
-		"/C/Users/Camilla/Documents/ashby_farms_projects/ashby_farms_website/Static/sass/style",
 		"/C/Users/Camilla/Documents/ashby_farms_projects/ashby_farms_website/Templates"
 	],
 	"file_history":
 	[
+		"/C/Users/Camilla/AppData/Local/Temp/f3ed164d-07f6-40d6-80e9-c95d89f496d9/static/img/favicon.ico",
+		"/C/Users/Camilla/Documents/ashby_farms_projects/ashby_farms_website/Copy/palette2.pdf",
 		"/C/Users/Camilla/Documents/ashby_farms_projects/ashby_farms_website/Templates/404.html",
 		"/C/Users/Camilla/Documents/ashby_farms_projects/ashby_farms_website/build/404/index.html",
 		"/C/Users/Camilla/Documents/ashby_farms_projects/ashby_farms_website/Templates/activities.html",
@@ -610,6 +668,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"class='dropdown-item'",
 			"face",
 			"fish",
 			"optionsRadios",
@@ -736,8 +795,7 @@
 			"h2",
 			"text-center",
 			"h3",
-			"pull",
-			"carouse"
+			"pull"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -772,7 +830,7 @@
 	"groups":
 	[
 		{
-			"selected": 6,
+			"selected": 4,
 			"sheets":
 			[
 				{
@@ -781,31 +839,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5420,
+						"buffer_size": 5503,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								496,
-								496
-							],
-							[
-								520,
-								520
-							],
-							[
-								544,
-								544
-							],
-							[
-								572,
-								572
-							],
-							[
-								587,
-								587
+								57,
+								57
 							]
 						],
 						"settings":
@@ -817,24 +859,53 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "Templates/formsuccess.html",
+					"file": "Templates/book.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 409,
+						"buffer_size": 10333,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								96,
-								96
+								1636,
+								1636
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 630.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "Templates/formsuccess.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1158,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								825,
+								825
 							]
 						],
 						"settings":
@@ -845,11 +916,96 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 3,
+					"file": "Templates/lodges.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2696,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2121,
+								2121
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 630.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "Templates/layout.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10690,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8114,
+								8160
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 3322.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "Templates/privacypolicy.html",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 9627,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								686,
+								686
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
 					"file": ".htaccess",
 					"semi_transient": false,
 					"settings":
@@ -873,11 +1029,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 14,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 7,
 					"file": "web.config",
 					"semi_transient": false,
 					"settings":
@@ -903,11 +1059,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 13,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 8,
 					"file": "Templates/404.html",
 					"semi_transient": false,
 					"settings":
@@ -931,16 +1087,16 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 11,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 9,
 					"file": "build/404/index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 9364,
+						"buffer_size": 9363,
 						"regions":
 						{
 						},
@@ -959,24 +1115,24 @@
 						"translation.y": 3699.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 10,
 					"type": "text"
 				},
 				{
-					"buffer": 6,
-					"file": "Templates/layout.html",
-					"semi_transient": true,
+					"buffer": 10,
+					"file": "Templates/oldfarm.html",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 9710,
+						"buffer_size": 2201,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								8013,
-								8017
+								126,
+								677
 							]
 						],
 						"settings":
@@ -984,14 +1140,70 @@
 							"syntax": "Packages/HTML/HTML.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 3213.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 9,
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 11,
+					"file": "Templates/springcottages.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2486,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								641,
+								641
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "Templates/65street.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2978,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2978,
+								2978
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 661.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
 					"file": "Static/sass/_images.scss",
 					"semi_transient": false,
 					"settings":
@@ -1015,24 +1227,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 12,
 					"type": "text"
 				},
 				{
-					"buffer": 8,
+					"buffer": 14,
 					"file": "Static/sass/main.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 7447,
+						"buffer_size": 7410,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4541,
-								4541
+								6206,
+								6206
 							]
 						],
 						"settings":
@@ -1041,14 +1253,14 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 3476.0,
+						"translation.y": 5162.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 9,
+					"buffer": 15,
 					"file": "app.py",
 					"semi_transient": false,
 					"settings":
@@ -1073,7 +1285,7 @@
 						"translation.y": 1035.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 9,
+					"stack_index": 15,
 					"type": "text"
 				}
 			]

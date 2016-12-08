@@ -364,18 +364,26 @@ color: #fff; }
 
 #footer{
 	@include light-on-dark;
+	a{
+		color: white;
+	}
 	min-height: $footer-height;
-	font-size:$small-text;
-	line-height: $small-text+1;
-	padding: $footer-height*0.05;
-
 	.row {
-		max-height:$footer-height*0.9;
 		min-height: $small-text;
 		margin: 0px;
+		padding-top: 2rem;
 	}
 	.img-fluid{
+		align-content: center;
 		max-height:$footer-height*0.9;
+	}
+	#memberships{
+		background-color: $af-light-grey;
+		padding-bottom: 2rem;
+		img{
+			margin-left: auto;
+			margin-right: auto;
+		}
 	}
 
 }
@@ -437,10 +445,8 @@ a:focus{
 }
 
 #footer {
-	padding-top: 3rem;
-	img{
-		margin-top: 2rem;
-	}
+	
+
 	.fa{
 		color: #fff;
 	}
